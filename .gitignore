@@ -1,1 +1,3 @@
-Phil1/*.log
+Phil1/*
+!Phil1/*.tex
+!Phil1/*.sty
