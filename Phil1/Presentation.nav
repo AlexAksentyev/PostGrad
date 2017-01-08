@@ -39,11 +39,19 @@
 \headcommand {\sectionentry {4}{Cogno-technologies}{15}{Cogno-technologies}{0}}
 \headcommand {\beamer@sectionpages {12}{14}}
 \headcommand {\beamer@subsectionpages {12}{14}}
-\headcommand {\sectionentry {5}{Socio-technologies}{15}{Socio-technologies}{0}}
-\headcommand {\beamer@sectionpages {15}{14}}
-\headcommand {\beamer@subsectionpages {15}{14}}
-\headcommand {\beamer@partpages {1}{15}}
-\headcommand {\beamer@subsectionpages {15}{15}}
-\headcommand {\beamer@sectionpages {15}{15}}
-\headcommand {\beamer@documentpages {15}}
-\headcommand {\def \inserttotalframenumber {14}}
+\headcommand {\slideentry {4}{0}{15}{15/15}{}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {4}{0}{16}{16/16}{}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {4}{0}{17}{17/17}{}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\slideentry {4}{0}{18}{18/18}{}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\sectionentry {5}{Socio-technologies}{19}{Socio-technologies}{0}}
+\headcommand {\beamer@sectionpages {15}{18}}
+\headcommand {\beamer@subsectionpages {15}{18}}
+\headcommand {\beamer@partpages {1}{19}}
+\headcommand {\beamer@subsectionpages {19}{19}}
+\headcommand {\beamer@sectionpages {19}{19}}
+\headcommand {\beamer@documentpages {19}}
+\headcommand {\def \inserttotalframenumber {18}}
