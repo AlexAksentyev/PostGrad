@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.30)  8 JAN 2017 21:18
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.30)  10 JAN 2017 13:10
 entering extended mode
 **Presentation.tex
 (D:\PostGrad\Phil1\Presentation.tex
@@ -1119,24 +1119,15 @@ Overfull \hbox (10.7514pt too wide) in paragraph at lines 30--30
 [2
 
  <D:/PostGrad/Phil1/CarbAllotropes.jpg>]
-<buckyball_white.jpg, id=92, 2677.00125pt x 2007.5pt>
+<buckyball_white.jpg, id=92, 523.05412pt x 514.3215pt>
 File: buckyball_white.jpg Graphic file (type jpg)
 
 <use buckyball_white.jpg>
-Package pdftex.def Info: buckyball_white.jpg used on input line 46.
-(pdftex.def)             Requested size: 535.39078pt x 401.49289pt.
+Package pdftex.def Info: buckyball_white.jpg used on input line 47.
+(pdftex.def)             Requested size: 104.60896pt x 102.86247pt.
 
-Overfull \hbox (381.74585pt too wide) in paragraph at lines 46--46
-[][]  
- []
-
-
-Overfull \hbox (4.55153pt too wide) detected at line 46
-[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
- []
-
-
-Overfull \vbox (156.21977pt too high) detected at line 46
+Overfull \hbox (12.42107pt too wide) in paragraph at lines 47--47
+ [][] 
  []
 
 [3
@@ -1148,20 +1139,20 @@ Overfull \vbox (156.21977pt too high) detected at line 46
 File: nanotube_orientations.jpg Graphic file (type jpg)
 
 <use nanotube_orientations.jpg>
-Package pdftex.def Info: nanotube_orientations.jpg used on input line 89.
+Package pdftex.def Info: nanotube_orientations.jpg used on input line 90.
 (pdftex.def)             Requested size: 205.96706pt x 92.14314pt.
 
-Overfull \hbox (71.39375pt too wide) in paragraph at lines 89--89
+Overfull \hbox (71.39375pt too wide) in paragraph at lines 90--90
 [][] 
  []
 
 <MWCNT.png, id=147, 1927.2pt x 1084.05pt>
 File: MWCNT.png Graphic file (type png)
  <use MWCNT.png>
-Package pdftex.def Info: MWCNT.png used on input line 89.
+Package pdftex.def Info: MWCNT.png used on input line 90.
 (pdftex.def)             Requested size: 192.7313pt x 108.41135pt.
 
-Overfull \hbox (58.15799pt too wide) in paragraph at lines 89--89
+Overfull \hbox (58.15799pt too wide) in paragraph at lines 90--90
 [][] 
  []
 
@@ -1173,10 +1164,10 @@ Overfull \hbox (58.15799pt too wide) in paragraph at lines 89--89
 ] <Nanobud.jpg, id=201, 1150.2975pt x 780.9175pt>
 File: Nanobud.jpg Graphic file (type jpg)
  <use Nanobud.jpg>
-Package pdftex.def Info: Nanobud.jpg used on input line 115.
+Package pdftex.def Info: Nanobud.jpg used on input line 116.
 (pdftex.def)             Requested size: 172.53717pt x 117.13257pt.
 
-Overfull \hbox (18.89224pt too wide) in paragraph at lines 115--115
+Overfull \hbox (18.89224pt too wide) in paragraph at lines 116--116
 [][]  
  []
 
@@ -1186,7 +1177,7 @@ Overfull \hbox (18.89224pt too wide) in paragraph at lines 115--115
 <SynBio_main.jpeg, id=227, 700.6175pt x 401.5pt>
 File: SynBio_main.jpeg Graphic file (type jpg)
  <use SynBio_main.jpeg>
-Package pdftex.def Info: SynBio_main.jpeg used on input line 124.
+Package pdftex.def Info: SynBio_main.jpeg used on input line 125.
 (pdftex.def)             Requested size: 280.24203pt x 160.59715pt.
 
 [8
@@ -1197,10 +1188,10 @@ Package pdftex.def Info: SynBio_main.jpeg used on input line 124.
 <cell_synthesis.jpg, id=280, 652.4375pt x 224.84pt>
 File: cell_synthesis.jpg Graphic file (type jpg)
  <use cell_synthesis.jpg>
-Package pdftex.def Info: cell_synthesis.jpg used on input line 148.
+Package pdftex.def Info: cell_synthesis.jpg used on input line 149.
 (pdftex.def)             Requested size: 326.21794pt x 112.41972pt.
 
-Overfull \hbox (18.92807pt too wide) in paragraph at lines 148--148
+Overfull \hbox (18.92807pt too wide) in paragraph at lines 149--149
 [][]  
  []
 
@@ -1213,7 +1204,7 @@ Overfull \hbox (18.92807pt too wide) in paragraph at lines 148--148
 File: Internet_of_Things.png Graphic file (type png)
 
 <use Internet_of_Things.png>
-Package pdftex.def Info: Internet_of_Things.png used on input line 165.
+Package pdftex.def Info: Internet_of_Things.png used on input line 166.
 (pdftex.def)             Requested size: 254.87157pt x 225.00005pt.
  [12
 
@@ -1221,67 +1212,76 @@ Package pdftex.def Info: Internet_of_Things.png used on input line 165.
 
 ] [14
 
-] <Deus_ex_Adam_Jensen.png, id=406, 508.14844pt x 697.8572pt>
+] [15
+
+] [16
+
+]
+<Deus_ex_Adam_Jensen.png, id=456, 508.14844pt x 697.8572pt>
 File: Deus_ex_Adam_Jensen.png Graphic file (type png)
 
 <use Deus_ex_Adam_Jensen.png>
-Package pdftex.def Info: Deus_ex_Adam_Jensen.png used on input line 208.
+Package pdftex.def Info: Deus_ex_Adam_Jensen.png used on input line 225.
 (pdftex.def)             Requested size: 254.0736pt x 348.92773pt.
 
-Overfull \vbox (115.65462pt too high) detected at line 208
- []
-
-[15
-
- <D:/PostGrad/Phil1/Deus_ex_Adam_Jensen.png>]
-<Neural_Interface_prosthetic.jpg, id=434, 306.14375pt x 432.61626pt>
-File: Neural_Interface_prosthetic.jpg Graphic file (type jpg)
-
-<use Neural_Interface_prosthetic.jpg>
-Package pdftex.def Info: Neural_Interface_prosthetic.jpg used on input line 220
-.
-(pdftex.def)             Requested size: 168.37958pt x 237.93968pt.
-
-Overfull \hbox (14.73465pt too wide) in paragraph at lines 220--220
-[][]  
- []
-
-[16
-
- <D:/PostGrad/Phil1/Neural_Interface_prosthetic.jpg>]
-<ECoG.png, id=460, 1129.21875pt x 1129.21875pt>
-File: ECoG.png Graphic file (type png)
- <use ECoG.png>
-Package pdftex.def Info: ECoG.png used on input line 238.
-(pdftex.def)             Requested size: 169.3755pt x 169.3755pt.
-
-Overfull \hbox (15.73058pt too wide) in paragraph at lines 238--238
-[][]  
+Overfull \vbox (115.65462pt too high) detected at line 225
  []
 
 [17
 
+ <D:/PostGrad/Phil1/Deus_ex_Adam_Jensen.png>]
+<Neural_Interface_prosthetic.jpg, id=484, 306.14375pt x 432.61626pt>
+File: Neural_Interface_prosthetic.jpg Graphic file (type jpg)
+
+<use Neural_Interface_prosthetic.jpg>
+Package pdftex.def Info: Neural_Interface_prosthetic.jpg used on input line 237
+.
+(pdftex.def)             Requested size: 168.37958pt x 237.93968pt.
+
+Overfull \hbox (14.73465pt too wide) in paragraph at lines 237--237
+[][]  
+ []
+
+[18
+
+ <D:/PostGrad/Phil1/Neural_Interface_prosthetic.jpg>]
+<ECoG.png, id=510, 1129.21875pt x 1129.21875pt>
+File: ECoG.png Graphic file (type png)
+ <use ECoG.png>
+Package pdftex.def Info: ECoG.png used on input line 255.
+(pdftex.def)             Requested size: 169.3755pt x 169.3755pt.
+
+Overfull \hbox (15.73058pt too wide) in paragraph at lines 255--255
+[][]  
+ []
+
+[19
+
  <D:/PostGrad/Phil1/ECoG.png>]
-<BCI_applications_Venn.jpg, id=486, 366.36874pt x 203.76125pt>
+<BCI_applications_Venn.jpg, id=537, 366.36874pt x 203.76125pt>
 File: BCI_applications_Venn.jpg Graphic file (type jpg)
 
 <use BCI_applications_Venn.jpg>
-Package pdftex.def Info: BCI_applications_Venn.jpg used on input line 244.
+Package pdftex.def Info: BCI_applications_Venn.jpg used on input line 261.
 (pdftex.def)             Requested size: 293.09538pt x 163.0092pt.
- [18
+ [20
 
- <D:/PostGrad/Phil1/BCI_applications_Venn.jpg>] [19
+ <D:/PostGrad/Phil1/BCI_applications_Venn.jpg>] (D:\PostGrad\Phil1\Presentation
+.bbl)
+Overfull \vbox (147.7406pt too high) detected at line 270
+ []
 
- <D:/MiKTeX/tex/latex/beamer/base/art/beamericonarticle.pdf>]
+[21
+
+]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
-
-(D:\PostGrad\Phil1\Presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 272.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 272.
+ (D:\PostGrad\Phil1\Presentation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 272.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 272.
 Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: EFEC404EACE3DB565EC3499D4698DEAA;266.
 
@@ -1291,10 +1291,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 23221 strings out of 494045
- 450402 string characters out of 3155644
- 499880 words of memory out of 3000000
- 26029 multiletter control sequences out of 15000+200000
+ 23248 strings out of 494045
+ 451086 string characters out of 3155644
+ 502913 words of memory out of 3000000
+ 26048 multiletter control sequences out of 15000+200000
  14996 words of font info for 55 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  56i,14n,55p,10423b,663s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1305,9 +1305,9 @@ ublic/amsfonts/cm/cmssbx10.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi1
 0.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmtt10.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/symbols
 /msam10.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Presentation.pdf (19 pages, 4841509 bytes).
+Output written on Presentation.pdf (21 pages, 4468784 bytes).
 PDF statistics:
- 613 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
+ 659 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
  143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
