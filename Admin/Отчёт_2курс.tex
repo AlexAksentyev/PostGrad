@@ -151,18 +151,16 @@
 				\caption{Характеристики типичного цикла 2016 года.\label{tbl:CycleChars}}
 				\begin{tabular}{llr}
 					\hline\hline
-					Charactetistic	& Test 					& P-value\\
-					\hline
-					Linearity 		& Harvey-Collier		& 0\% \\
-					-				& Rainbow				& 0\% \\
-					Constant slope	& Chow\tnote{a}		 	& 100\% \\
-					-				& Moving estimates		& 1\% \\
-					Homoskedasticity& Breusch-Pagan 		& 0\% \\
-					Autocorrelation & Durbin-Watson			& 0\% \\
-					\hline\hline
+					Характеристика      & Тест             & P-величина \\ \hline
+					Линейность          & Harvey-Collier   &        0\% \\
+					-                   & Rainbow          &        0\% \\
+					Постоянство наклона & Chow\tnote{a}    &      100\% \\
+					-                   & Moving estimates &        1\% \\
+					Гомоскедастичность  & Breusch-Pagan    &        0\% \\
+					Автокорреляция      & Durbin-Watson    &        0\% \\ \hline\hline
 				\end{tabular}
 				\begin{tablenotes}
-					\item[a]{Тест Чоу был выполнен в каждой точке региона фитирования. Тестовой статистикой выбрано среднее значение F-статистик тестов.}
+					\item[a]{Тест Chow был выполнен в каждой точке региона фитирования. Тестовой статистикой выбрано среднее значение F-статистик тестов.}
 				\end{tablenotes}
 			\end{threeparttable}
 		\end{table}
@@ -185,15 +183,15 @@
 			\caption{Статистика фитирования циклов. \label{tbl:Slp-big}}
 			\begin{tabular}{c|llrllrr}
 				\hline\hline
-				Year          & Target               & Spin & \#\tnote{a} & Mean [a.u.]      & SE [a.u.]    &  \\ \hline
-				\multirow{2}{*}{2012} & Off                  & Null & 5           & $\vp{-9.04}{-5}$ & $\vp{6}{-7}$ &  \\
-				& On                   & Null & 4           & $\vp{-1.20}{-4}$ & $\vp{1}{-6}$ &  \\ \hline
-				\multirow{6}{*}{2016} & \multirow{3}{*}{Off} & Up   & 12          & $\vp{-2.26}{-4}$ & $\vp{7}{-6}$ &  \\
-				&                      & Down & 12          & $\vp{-2.16}{-4}$ & $\vp{8}{-6}$ &  \\
-				&                      & Null & 12          & $\vp{-2.12}{-4}$ & $\vp{9}{-6}$ &  \\
-				& \multirow{3}{*}{On}  & Up   & 12          & $\vp{-2.51}{-4}$ & $\vp{4}{-6}$ &  \\
-				&                      & Down & 12          & $\vp{-2.53}{-4}$ & $\vp{5}{-6}$ &  \\
-				&                      & Null & 12          & $\vp{-2.54}{-4}$ & $\vp{6}{-6}$ &  \\ \hline\hline
+				         Год          & Мишень               & Спин & \#\tnote{a} & Среднее [a.u.]   & Ошибка [a.u.] &  \\ \hline
+				\multirow{2}{*}{2012} & Off                  & Null &           5 & $\vp{-9.04}{-5}$ & $\vp{6}{-7}$  &  \\
+				                      & On                   & Null &           4 & $\vp{-1.20}{-4}$ & $\vp{1}{-6}$  &  \\ \hline
+				\multirow{6}{*}{2016} & \multirow{3}{*}{Off} & Up   &          12 & $\vp{-2.26}{-4}$ & $\vp{7}{-6}$  &  \\
+				                      &                      & Down &          12 & $\vp{-2.16}{-4}$ & $\vp{8}{-6}$  &  \\
+				                      &                      & Null &          12 & $\vp{-2.12}{-4}$ & $\vp{9}{-6}$  &  \\
+				                      & \multirow{3}{*}{On}  & Up   &          12 & $\vp{-2.51}{-4}$ & $\vp{4}{-6}$  &  \\
+				                      &                      & Down &          12 & $\vp{-2.53}{-4}$ & $\vp{5}{-6}$  &  \\
+				                      &                      & Null &          12 & $\vp{-2.54}{-4}$ & $\vp{6}{-6}$  &  \\ \hline\hline
 			\end{tabular}
 			\begin{tablenotes}
 				\item[a]{Размер сэмпла.}
@@ -211,20 +209,17 @@
 			\caption{Статистика эффективного сечения рассеяния. \label{tbl:CS-all}}
 			\begin{tabular}{c|llrcr}
 				\hline\hline
-				Year						& Soundness		& Closeness		& \#		& Mean\tnote{a} [a.u.]	& SE [a.u.] \\
-				\hline
-				\multirow{4}{*}{2012}		& Sound			& Close			& 4			& 507(507)				& 7  \\
-				& Sound			& Far			& 8			& 553(563)				& 14 \\
-				& Unsound		& Close			& 3			& 562(580)				& 36 \\
-				& Unsound		& Far			& 5			& 515(512)				& 20 \\
-				& All			& 				& 20		& 536(544)				& 10 \\
-				\hline					
-				\multirow{4}{*}{2016}		& Sound			& Close			& 40		& 409(411)				& 48 \\
-				& Sound			& Far			& 92		& 396(385)				& 34 \\
-				& Unsound		& Close			& 4			& 1400(1418)			& 170\\
-				& Unsound		& Far			& 8			& 1453(1457)			& 69 \\
-				& All			& 				& 144		& 486(473)				& 35 \\
-				\hline\hline
+				         Год          & Звучность & Близость &  \# & Среднее\tnote{a} [a.u.] & Ошибка [a.u.] \\ \hline
+				\multirow{4}{*}{2012} & Sound     & Close    &   4 &        507(507)         &             7 \\
+				                      & Sound     & Far      &   8 &        553(563)         &            14 \\
+				                      & Unsound   & Close    &   3 &        562(580)         &            36 \\
+				                      & Unsound   & Far      &   5 &        515(512)         &            20 \\
+				                      & All       &          &  20 &        536(544)         &            10 \\ \hline
+				\multirow{4}{*}{2016} & Sound     & Close    &  40 &        409(411)         &            48 \\
+				                      & Sound     & Far      &  92 &        396(385)         &            34 \\
+				                      & Unsound   & Close    &   4 &       1400(1418)        &           170 \\
+				                      & Unsound   & Far      &   8 &       1453(1457)        &            69 \\
+				                      & All       &          & 144 &        486(473)         &            35 \\ \hline\hline
 			\end{tabular}
 			\begin{tablenotes}
 				\item[a] Значение в скобках --- вариационное средне-взвешенное.
@@ -281,15 +276,15 @@
 		\begin{threeparttable}[h]
 			\begin{tabular}{p{4.5cm}llr}
 				\hline\hline
-				Parameter                                 & Symbol            & Value              &               Dimension \\ \hline
-				Beam revolution frequency                 & $\nu$             & 0.79               &                     MHz \\
-				Target thickness                          & $\Thick$          & $1.1\cdot 10^{14}$ & $\Dim{at\cdot cm^{-2}}$ \\
-				Target polarization                       & $P^t$             & 0.88               &                      -- \\
-				Beam spin up-down polarization difference & $\DP$             & 1.48               &                      -- \\
-				$pd$ scattering cross section             & $\CS[0]$\tnote{a} & 70                 &                      mb \\ \hline
+				Параметр                                         & Символ            & Величина           &             Размерность \\ \hline
+				Частота оборота пучка                            & $\nu$             & 0.79               &                     MHz \\
+				Толщина мишени                                   & $\Thick$          & $1.1\cdot 10^{14}$ & $\Dim{at\cdot cm^{-2}}$ \\
+				Поляризация мишени                               & $P^t$             & 0.88               &                      -- \\
+				Разница пооляризаций пучка спин-вверх--спин-вниз & $\DP$             & 1.48               &                      -- \\
+				сечение $pd$ рассеяния                           & $\CS[0]$\tnote{a} & 70                 &                      mb \\ \hline
 			\end{tabular}
 			\begin{tablenotes}
-				\item[a]{From Particle Data Group \url{http://pdg.lbl.gov/2016/hadronic-xsections/rpp2014-pd_pn_plots.pdf}}
+				\item[a]{Из Particle Data Group \url{http://pdg.lbl.gov/2016/hadronic-xsections/rpp2014-pd_pn_plots.pdf}}
 			\end{tablenotes}
 		\end{threeparttable}
 	\end{table}

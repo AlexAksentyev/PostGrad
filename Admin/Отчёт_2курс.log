@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  14 JAN 2017 19:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  14 JAN 2017 19:45
 entering extended mode
 **./РћС‚С‡С‘С‚_2РєСѓСЂСЃ.tex
 (РћС‚С‡С‘С‚_2РєСѓСЂСЃ.tex
@@ -1586,49 +1586,45 @@ Package epstopdf Info: Source file: <img/DiagPlot_969.eps>
 (epstopdf)                    size: 229933 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/DiagPlot_969-eps-conver
 ted-to.pdf img/DiagPlot_969.eps>
-(epstopdf)             \includegraphics on input line 173.
+(epstopdf)             \includegraphics on input line 171.
 Package epstopdf Info: Output file is already uptodate.
 <img/DiagPlot_969-eps-converted-to.pdf, id=153, 560.0925pt x 582.175pt>
 File: img/DiagPlot_969-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/DiagPlot_969-eps-converted-to.pdf>
 Package pdftex.def Info: img/DiagPlot_969-eps-converted-to.pdf used on input li
-ne 173.
+ne 171.
 (pdftex.def)             Requested size: 448.0746pt x 465.74063pt.
 Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 175.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 175.
+Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 177.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 177.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 179.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 179.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 177.
  [8]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 207.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 207.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 207.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 207.
+(babel)             in language  on input line 205.
  [9]
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
-[]\T2A/cmr/m/n/14.4 Значение в скоб-ках --- ва-ри-а-ци-он-ное средне-
- []
-
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 235.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 235.
+(babel)             in language  on input line 230.
 Package epstopdf Info: Source file: <img/Ayy_dens.eps>
 (epstopdf)                    date: 2017-01-14 13:26:42
 (epstopdf)                    size: 6907 bytes
@@ -1637,17 +1633,18 @@ Package epstopdf Info: Source file: <img/Ayy_dens.eps>
 (epstopdf)                    size: 8915 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/Ayy_dens-eps-converted-
 to.pdf img/Ayy_dens.eps>
-(epstopdf)             \includegraphics on input line 240.
+(epstopdf)             \includegraphics on input line 235.
 Package epstopdf Info: Output file is already uptodate.
-<img/Ayy_dens-eps-converted-to.pdf, id=175, 560.0925pt x 582.175pt>
+
+<img/Ayy_dens-eps-converted-to.pdf, id=177, 560.0925pt x 582.175pt>
 File: img/Ayy_dens-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/Ayy_dens-eps-converted-to.pdf>
 Package pdftex.def Info: img/Ayy_dens-eps-converted-to.pdf used on input line 2
-40.
+35.
 (pdftex.def)             Requested size: 448.0746pt x 465.74063pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
+Underfull \hbox (badness 10000) in paragraph at lines 236--236
 []\T2A/cmr/m/n/14.4 Рис. 3: []Распределение асим-мет-рии $[]$ пол-но-го се-че-н
 ия дважды-
  []
@@ -1656,24 +1653,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--241
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 239.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 239.
 
-Overfull \hbox (5.08679pt too wide) in paragraph at lines 245--246
+Overfull \hbox (5.08679pt too wide) in paragraph at lines 240--241
 \T2A/cmr/m/n/14.4 умень-ше-ние вре-ме-ни жиз-ни пуч-ка с по-ля-ри-за-ци-ей вниз
 , и ста-ти-сти-че-ски незна-
  []
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 246.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 246.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 246.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 246.
-[10]
 Package epstopdf Info: Source file: <img/Slopes2016_VS_Clock.eps>
 (epstopdf)                    date: 2017-01-14 13:26:42
 (epstopdf)                    size: 27298 bytes
@@ -1683,32 +1671,41 @@ df>
 (epstopdf)                    size: 14720 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/Slopes2016_VS_Clock-eps
 -converted-to.pdf img/Slopes2016_VS_Clock.eps>
-(epstopdf)             \includegraphics on input line 249.
+(epstopdf)             \includegraphics on input line 244.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/Slopes2016_VS_Clock-eps-converted-to.pdf, id=184, 560.0925pt x 582.175pt>
+<img/Slopes2016_VS_Clock-eps-converted-to.pdf, id=179, 560.0925pt x 582.175pt>
 File: img/Slopes2016_VS_Clock-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/Slopes2016_VS_Clock-eps-converted-to.pdf>
 Package pdftex.def Info: img/Slopes2016_VS_Clock-eps-converted-to.pdf used on i
-nput line 249.
+nput line 244.
 (pdftex.def)             Requested size: 448.0746pt x 465.74063pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (3.73656pt too wide) in paragraph at lines 253--254
+Overfull \hbox (3.73656pt too wide) in paragraph at lines 248--249
 []\T2A/cmr/m/n/14.4 Распределения ко-эф-фи-ци-ен-та ав-то-кор-ре-ля-ции мо-дель
 -ных от-кло-не-ний пред-
  []
 
 
-Overfull \hbox (3.37518pt too wide) in paragraph at lines 253--254
+Overfull \hbox (3.37518pt too wide) in paragraph at lines 248--249
 \T2A/cmr/m/n/14.4 став-ле-ны на Рис. []5[]. По-ло-жи-тель-ная ав-то-кор-ре-ля-ц
 ия сви-де-тель-ству-ет об инерт-
  []
 
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 249.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 249.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 249.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 249.
+[10]
 Package epstopdf Info: Source file: <img/ACF1_dens.eps>
 (epstopdf)                    date: 2017-01-14 13:26:42
 (epstopdf)                    size: 85740 bytes
@@ -1717,14 +1714,14 @@ Package epstopdf Info: Source file: <img/ACF1_dens.eps>
 (epstopdf)                    size: 23060 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/ACF1_dens-eps-converted
 -to.pdf img/ACF1_dens.eps>
-(epstopdf)             \includegraphics on input line 257.
+(epstopdf)             \includegraphics on input line 252.
 Package epstopdf Info: Output file is already uptodate.
-<img/ACF1_dens-eps-converted-to.pdf, id=186, 560.0925pt x 582.175pt>
+ <img/ACF1_dens-eps-converted-to.pdf, id=186, 560.0925pt x 582.175pt>
 File: img/ACF1_dens-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/ACF1_dens-eps-converted-to.pdf>
 Package pdftex.def Info: img/ACF1_dens-eps-converted-to.pdf used on input line 
-257.
+252.
 (pdftex.def)             Requested size: 448.0746pt x 465.74063pt.
 
 
@@ -1738,89 +1735,76 @@ Package epstopdf Info: Source file: <img/FStats_BP_dens.eps>
 (epstopdf)                    size: 24334 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/FStats_BP_dens-eps-conv
 erted-to.pdf img/FStats_BP_dens.eps>
-(epstopdf)             \includegraphics on input line 265.
+(epstopdf)             \includegraphics on input line 260.
 Package epstopdf Info: Output file is already uptodate.
 <img/FStats_BP_dens-eps-converted-to.pdf, id=188, 560.0925pt x 582.175pt>
 File: img/FStats_BP_dens-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/FStats_BP_dens-eps-converted-to.pdf>
 Package pdftex.def Info: img/FStats_BP_dens-eps-converted-to.pdf used on input 
-line 265.
+line 260.
 (pdftex.def)             Requested size: 448.0746pt x 465.74063pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (7.57826pt too wide) in paragraph at lines 269--269
+Overfull \hbox (7.57826pt too wide) in paragraph at lines 264--264
 []\T2A/cmr/bx/n/20.74 Статистические тре-бо-ва-ния к про-ве-де-нию экс-
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 269.
+(babel)             in language  on input line 264.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 269.
+(babel)             in language  on input line 264.
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \v with sig. 'm' on line 274.
+. Redefining command \v with sig. 'm' on line 269.
 .................................................
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
-[]\T2A/cmr/m/n/14.4 Beam revolution
+Underfull \hbox (badness 10000) in paragraph at lines 280--280
+[]\T2A/cmr/m/n/14.4 Частота обо-ро-та
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
-[]\T2A/cmr/m/n/14.4 Beam spin up-
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+[]\T2A/cmr/m/n/14.4 Разница поо-ля-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
-\T2A/cmr/m/n/14.4 down polarization
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+\T2A/cmr/m/n/14.4 ри-за-ций пуч-ка
  []
 
 
-Underfull \hbox (badness 4872) in paragraph at lines 289--289
-[]$\OML/cmm/m/it/14.4 pd$ \T2A/cmr/m/n/14.4 scattering cross
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+\T2A/cmr/m/n/14.4 спин-вверх--спин-
  []
 
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 292
+
+Underfull \hbox (badness 2065) in paragraph at lines 284--284
+[]\T2A/cmr/m/n/14.4 сечение $\OML/cmm/m/it/14.4 pd$ \T2A/cmr/m/n/14.4 рас-се-я-
+
+ []
+
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 287
 .
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd"
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
-[]\T2A/cmr/m/n/14.4 From Particle Data Group []$\T2A/cmtt/m/n/14.4 http : / / p
-dg . lbl .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
-\T2A/cmtt/m/n/14.4 gov / 2016 / hadronic-[]xsections / rpp2014-[]pd _ pn _
- []
-
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 295.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 295.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 295.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 295.
+ [11]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 309.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 309.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 309.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 309.
-[11]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 342.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 342.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 342.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 342.
- [12]
 Package epstopdf Info: Source file: <img/BeamTime_15minCycles.eps>
 (epstopdf)                    date: 2017-01-14 13:26:42
 (epstopdf)                    size: 15485 bytes
@@ -1830,14 +1814,14 @@ pdf>
 (epstopdf)                    size: 8658 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/BeamTime_15minCycles-ep
 s-converted-to.pdf img/BeamTime_15minCycles.eps>
-(epstopdf)             \includegraphics on input line 346.
+(epstopdf)             \includegraphics on input line 341.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/BeamTime_15minCycles-eps-converted-to.pdf, id=214, 560.0925pt x 582.175pt>
+<img/BeamTime_15minCycles-eps-converted-to.pdf, id=203, 560.0925pt x 582.175pt>
 File: img/BeamTime_15minCycles-eps-converted-to.pdf Graphic file (type pdf)
 <use img/BeamTime_15minCycles-eps-converted-to.pdf>
 Package pdftex.def Info: img/BeamTime_15minCycles-eps-converted-to.pdf used on 
-input line 346.
+input line 341.
 (pdftex.def)             Requested size: 448.0746pt x 465.74063pt.
 
 
@@ -1852,162 +1836,160 @@ Package epstopdf Info: Source file: <img/SEAyy_varB_15min.eps>
 (epstopdf)                    size: 8615 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/SEAyy_varB_15min-eps-co
 nverted-to.pdf img/SEAyy_varB_15min.eps>
-(epstopdf)             \includegraphics on input line 351.
+(epstopdf)             \includegraphics on input line 346.
 Package epstopdf Info: Output file is already uptodate.
-<img/SEAyy_varB_15min-eps-converted-to.pdf, id=215, 560.0925pt x 582.175pt>
+<img/SEAyy_varB_15min-eps-converted-to.pdf, id=204, 560.0925pt x 582.175pt>
 File: img/SEAyy_varB_15min-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/SEAyy_varB_15min-eps-converted-to.pdf>
 Package pdftex.def Info: img/SEAyy_varB_15min-eps-converted-to.pdf used on inpu
-t line 351.
+t line 346.
 (pdftex.def)             Requested size: 448.0746pt x 465.74063pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 356.
+(babel)             in language  on input line 351.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 356.
+(babel)             in language  on input line 351.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 356.
+(babel)             in language  on input line 351.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 356.
-[13]
-Underfull \hbox (badness 3088) in paragraph at lines 382--386
+(babel)             in language  on input line 351.
+[12]
+Underfull \hbox (badness 3088) in paragraph at lines 377--381
 []\T2A/cmr/m/n/14.4 Pekka K. Sinervo \T2A/cmr/m/sc/14.4 Definition and Treatmen
 t of Systematic
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 382--386
+Underfull \hbox (badness 3646) in paragraph at lines 377--381
 \T2A/cmr/m/sc/14.4 Uncertainties in High Energy Physics and Astrophysics\T2A/cm
 r/m/n/14.4 .
  []
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 388--391
+Underfull \hbox (badness 4927) in paragraph at lines 383--386
 []\T2A/cmr/m/n/14.4 Christian Servin, Martine Ceberio, Aline James, et al. \T2A
 /cmr/m/sc/14.4 How to
  []
 
-
-Underfull \hbox (badness 3724) in paragraph at lines 404--407
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 393.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 393.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 393.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 393.
+[13]
+Underfull \hbox (badness 3724) in paragraph at lines 399--402
 []\T2A/cmr/m/n/14.4 C. S. Wu, E. Ambler et al., \T2A/cmr/m/sc/14.4 Experimental
  Test of Parity
  []
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 409--412
+Underfull \hbox (badness 2818) in paragraph at lines 404--407
 []\T2A/cmr/m/n/14.4 P. D. Eversheim et al., \T2A/cmr/m/sc/14.4 Parity violation
  in proton proton
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 448.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 448.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 448.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 448.
 [14]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 499.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 466.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 466.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 466.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 466.
+(babel)             in language  on input line 499.
  [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 504.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 504.
- [16]
+(babel)             in language  on input line 499.
+ [16 <./img/Cycles_12--16-eps-converted-to.pdf>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 504.
- [17 <./img/Cycles_12--16-eps-converted-to.pdf>]
+(babel)             in language  on input line 499.
+ [17 <./img/DiagPlot_969-eps-converted-to.pdf>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 504.
- [18 <./img/DiagPlot_969-eps-converted-to.pdf>]
+(babel)             in language  on input line 499.
+ [18 <./img/Ayy_dens-eps-converted-to.pdf>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 504.
- [19 <./img/Ayy_dens-eps-converted-to.pdf>]
+(babel)             in language  on input line 499.
+ [19 <./img/Slopes2016_VS_Clock-eps-converted-to.pdf>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 504.
-
-[20 <./img/Slopes2016_VS_Clock-eps-converted-to.pdf>]
+(babel)             in language  on input line 499.
+ [20 <./img/ACF1_dens-eps-converted-to.pdf>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 504.
- [21 <./img/ACF1_dens-eps-converted-to.pdf>]
+(babel)             in language  on input line 499.
+ [21 <./img/FStats_BP_dens-eps-converted-to.pdf>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 504.
- [22 <./img/FStats_BP_dens-eps-converted-to.pdf>]
+(babel)             in language  on input line 499.
+ [22 <./img/BeamTime_15minCycles-eps-converted-to.pdf>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 504.
+(babel)             in language  on input line 499.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 504.
- [23 <./img/BeamTime_15minCycles-eps-converted-to.pdf>]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 504.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 504.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 504.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 504.
- [24 <./img/SEAyy_varB_15min-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 504.
+(babel)             in language  on input line 499.
+ [23 <./img/SEAyy_varB_15min-eps-converted-to.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 499.
  (РћС‚С‡С‘С‚_2РєСѓСЂСЃ.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 504.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 504.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 499.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 499.
 Package rerunfilecheck Info: File `РћС‚С‡С‘С‚_2РєСѓСЂСЃ.out' has not changed.
 (rerunfilecheck)             Checksum: CFC157DC3D807189AA0043349C2EC380;2856.
 
@@ -2017,13 +1999,13 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 21055 strings out of 493334
- 350588 string characters out of 3136633
- 437059 words of memory out of 3000000
+ 21054 strings out of 493334
+ 350581 string characters out of 3136633
+ 438059 words of memory out of 3000000
  24282 multiletter control sequences out of 15000+200000
  18447 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,14n,52p,10416b,523s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 50i,14n,52p,10416b,524s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\РђРєСЃРµРЅС‚СЊРµРІ\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-
 t2a\dpi600\lacc1440.pk> <C:\Users\РђРєСЃРµРЅС‚СЊРµРІ\AppData\Local\MiKTeX\2.9\f
 onts\pk\ljfour\lh\lh-t2a\dpi600\latt1440.pk> <C:\Users\РђРєСЃРµРЅС‚СЊРµРІ\AppDa
@@ -2046,9 +2028,9 @@ rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on РћС‚С‡С‘С‚_2РєСѓСЂСЃ.pdf (25 pages, 3893997 bytes).
+Output written on РћС‚С‡С‘С‚_2РєСѓСЂСЃ.pdf (24 pages, 3892650 bytes).
 PDF statistics:
- 864 PDF objects out of 1000 (max. 8388607)
- 96 named destinations out of 1000 (max. 500000)
+ 857 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
