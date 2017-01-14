@@ -8,7 +8,6 @@
 \usepackage{multirow}
 \usepackage{threeparttable}
 
-\newcommand{\avg}[1]{\langle #1 \rangle}
 
 
 \begin{document}
@@ -243,29 +242,117 @@
 	\end{figure}
 	
 	\section{Анализ систематических ошибок}
+	На Рис.~\ref{fig:Slopes} представлена зависимость оценки скорости рассеяния от времени для циклов с различной поляризацией пучка. Мы можем наблюдать статистически значимое увеличение времени жизни пучка с поляризацией вверх, уменьшение времени жизни пучка с поляризацией вниз, и статистически незначительный рост времени жизни неполяризованного пучка в циклах без мишени. Такая структура зависимости может свидетельствовать о том, что поляризация инжектированного пучка спадала со временем. 
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.8]{img/Slopes2016_VS_Clock.eps}
 		\caption{Оценки угла наклона касательной в зависимости от времени, разделённые в соответствии с поляризацией пучка и присутствием мишени.\label{fig:Slopes}}
 	\end{figure}
 	
+	Распределения коэффициента автокорреляции модельных отклонений представлены на Рис.~\ref{fig:DW2}. Положительная автокорреляция свидетельствует об инертности системы, увеличивает неопределённость оценки наклона касательной, но не влияет на её консистентность, если только она не вызвана наличием скрытого предиктора. 
+
 	\begin{figure}[h]
 		\centering
-		\begin{minipage}{.5\textwidth}
-			\centering
-			\includegraphics[scale=.5]{img/ACF1_dens.eps}
-			\caption{Распределение автокорреляции ошибки первого порядка.\label{fig:DW2}}
-		\end{minipage}~~
-		\begin{minipage}{.5\textwidth}
-			\centering
-			\includegraphics[scale=.5]{img/FStats_BP_dens.eps}
-			\caption{Точка изменения величины наклона касательной, полученная движущимся тестом Чоу. Распределение циклов без мишени в верхней панели.\label{FStat_BP_dens}}
-		\end{minipage}
+		\includegraphics[scale=.8]{img/ACF1_dens.eps}
+		\caption{Распределение автокорреляции первого порядка модельного отклонения.\label{fig:DW2}}
+	\end{figure}
+
+	Распределения точек структурных изменений в данных представлены на Рис.~\ref{fig:FStat_BP_dens}. На данный момент, рабочей гипотезой, объясняющей перелом в наклоне касательной, является изменение скорости откачки вакуума при низких давлениях.
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=.8]{img/FStats_BP_dens.eps}
+		\caption{Точка изменения величины наклона касательной, полученная движущимся тестом Чоу. Распределение циклов без мишени в верхней панели.\label{fig:FStat_BP_dens}}
+	\end{figure}
+
+	\section{Статистические требования к проведению эксперимента}\label{sec:StatReq}
+	\newcommand{\Dim}[1]{\mathrm{#1}}
+	\newcommand{\Tint}{\Delta t}
+	\newcommand{\err}{\epsilon}
+	\newcommand{\DP}{\Delta P}
+	\DeclareDocumentCommand{\v}{m}{\sigma^2\bkt*{#1}}
+	
+	В оценках ниже использовались значения Таблицы~\ref{tbl:Param}.
+
+	\begin{table}[h]
+		\centering
+		\caption{Значения параметров (Июнь 2016)\label{tbl:Param}}
+		\begin{threeparttable}[h]
+			\begin{tabular}{p{4.5cm}llr}
+				\hline\hline
+				Parameter                                 & Symbol            & Value              &               Dimension \\ \hline
+				Beam revolution frequency                 & $\nu$             & 0.79               &                     MHz \\
+				Target thickness                          & $\Thick$          & $1.1\cdot 10^{14}$ & $\Dim{at\cdot cm^{-2}}$ \\
+				Target polarization                       & $P^t$             & 0.88               &                      -- \\
+				Beam spin up-down polarization difference & $\DP$             & 1.48               &                      -- \\
+				$pd$ scattering cross section             & $\CS[0]$\tnote{a} & 70                 &                      mb \\ \hline
+			\end{tabular}
+			\begin{tablenotes}
+				\item[a]{From Particle Data Group \url{http://pdg.lbl.gov/2016/hadronic-xsections/rpp2014-pd_pn_plots.pdf}}
+			\end{tablenotes}
+		\end{threeparttable}
+	\end{table}
+	
+	Стандартная ошибка среднего значения распределения оценок асимметрии $\SE{\avg{\Ayy*}}$ выражается через полную длительность эксперимента $H$ как
+	\begin{equation}\label{eq:AvgAyySEPhys}
+	\SE{\avg{\Ayy*}} = 4\sqrt{3}C\cdot \frac{\sqrt{\Tint}}{h\sqrt{H}}\cdot\SE{\err}.
+	\end{equation}
+	
+	В связи с собственной вариацией наклона касательной, существует оптимальный размер статистики, дающий статистическую ошибку сравнимую с систематической ошибкой. Из выражения
+	\begin{equation}
+		\v{\avg{\Ayy*}}	= \frac{4 C^2}{H}\bkt{12\Tint\cdot\frac{\v{\err}}{h^2} + h\cdot\v{\slp}}.
+	\end{equation}
+	мы получаем оптимальное время измерения
+	\begin{equation}
+	h_{best} = \sqrt[3]{24\cdot \Tint} \bkt{\frac{\v{\err}}{\v{\slp}}}^{1/3}.
+	\end{equation}
+	
+	Значение наилучшей достижимой точности в оценке среднего и длительность цикла, соответствующая ей, в зависимости от разрешения измерений тока, представлены в Таблице~\ref{tbl:SEAyy_varb} и на Рис.~\ref{fig:SEAyy_varb}. 
+		
+	Поскольку наклон касательной по определению
+	\[
+	\slp[t] = \frac{\Delta \ln I_t}{\Delta t} \approx \frac{1}{\Delta t}\frac{\Delta I_t}{I_t} \propto \frac{\Delta N_t}{N_t}, ~\Delta N_t \sim B(N_t, p),
+	\]
+	собственная вариабильность наклона касательной $\vec{\slp}$ была оценена как стандартное отклонение вероятности рассеяния частицы 
+	\begin{equation*}
+	\begin{cases}
+	\Xpct{\slp[t]} 	&= p, \\
+	\SE{\slp[t]}		&= \frac{1}{\Delta t}\frac{\sqrt{p(1-p)}}{\sqrt{N_t}}, \\
+	p 				&= \nu\CS[0]\Thick\Delta t.
+	\end{cases}
+	\end{equation*}
+	
+	Для значений из Таблицы~\ref{tbl:Param}, $\v{\slp} \approx 8\cdot 10^{-16}$.
+	
+	\begin{table}[h]
+		\centering
+		\caption{Наилучшая достижимая точность $\SE{\avg{\Ayy*}}$.\label{tbl:SEAyy_varb}}
+		\begin{tabular}{lrr}
+			\hline\hline
+			$\SE{\err}$			&	$h_{best}$ (min)	& $\SE{\avg{\Ayy*}}$\\
+			\hline
+			$5\cdot10^{-3}$		&	141					& $8\cdot10^{-4}$\\
+			$1\cdot10^{-3}$		&	48					& $3\cdot10^{-4}$\\
+			$5\cdot10^{-4}$		&	30					& $3\cdot10^{-4}$\\
+			$1\cdot10^{-4}$		&	10					& $2\cdot10^{-4}$\\
+			$5\cdot10^{-5}$		&	7					& $1\cdot10^{-4}$\\
+			\hline
+		\end{tabular}
+	\end{table}
+
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=.8]{img/BeamTime_15minCycles.eps}
+		\caption{Необходимое время эксперимента (в полных днях) как функция стандартной ошибки среднего оценки $\Ayy$, в случае 15-минутных циклов.\label{fig:BeamTime}}
+	\end{figure}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=.8]{img/SEAyy_varB_15min.eps}
+		\caption{Стандартная ошибка средней оценки $\Ayy$ как функция длительности цикла при собственной вариации скорости рассеяния $\v{\slp} = 1\cdot10^{-15}$.\label{fig:SEAyy_varb}}
 	\end{figure}
 	
-	\section{Статистические требования к проведению эксперимента}\label{sec:StatReq}
-	
+	\pagebreak
 	\begin{thebibliography}{99}
 		
 		\bibitem{Sakharov}

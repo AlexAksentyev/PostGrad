@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  14 JAN 2017 18:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  14 JAN 2017 19:30
 entering extended mode
 **./РћС‚С‡С‘С‚_2РєСѓСЂСЃ.tex
 (РћС‚С‡С‘С‚_2РєСѓСЂСЃ.tex
@@ -1093,42 +1093,47 @@ Package: SPINDefs
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \CS with sig. 'sO{}' on line 6.
+. Defining command \CS with sig. 'sO{}' on line 7.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \slp with sig. 'sO{}' on line 7.
+. Defining command \slp with sig. 'sO{}' on line 8.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \Thick with sig. 'O{}' on line 8.
+. Defining command \Thick with sig. 'O{}' on line 9.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SE with sig. 'sm' on line 10.
+. Defining command \SE with sig. 'sm' on line 11.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \bkt with sig. 'sm' on line 12.
+. Defining command \Xpct with sig. 'mo' on line 12.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ADCcode with sig. 'O{ }' on line 15.
+. Defining command \bkt with sig. 'sm' on line 14.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \Ayy with sig. 's' on line 19.
+. Defining command \ADCcode with sig. 'O{ }' on line 17.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \Ayxz with sig. 's' on line 20.
+. Defining command \Ayy with sig. 's' on line 21.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Ayxz with sig. 's' on line 22.
 .................................................
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
@@ -1260,7 +1265,7 @@ Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box46
 )
 
-Package csquotes Warning: Load 'inputenc' before 'csquotes' on input line 14.
+Package csquotes Warning: Load 'inputenc' before 'csquotes' on input line 13.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1272,31 +1277,31 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 \openout1 = `РћС‚С‡С‘С‚_2РєСѓСЂСЃ.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 13.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1361,7 +1366,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box48
-Package hyperref Info: Link coloring OFF on input line 14.
+Package hyperref Info: Link coloring OFF on input line 13.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1371,9 +1376,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count160
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
 
 (РћС‚С‡С‘С‚_2РєСѓСЂСЃ.out) (РћС‚С‡С‘С‚_2РєСѓСЂСЃ.out)
 \@outlinefile=\write3
@@ -1399,155 +1404,155 @@ Package babel Info: Redefining russian shorthand "~
 ])
 
 LaTeX Font Warning: Font shape `T2A/cmr/m/n' in size <20.16003> not available
-(Font)              size <20.74> substituted on input line 18.
+(Font)              size <20.74> substituted on input line 17.
 
 
 LaTeX Font Warning: Font shape `T2A/cmr/bx/n' in size <20.16003> not available
-(Font)              size <20.74> substituted on input line 18.
+(Font)              size <20.74> substituted on input line 17.
 
 (РћС‚С‡С‘С‚_2РєСѓСЂСЃ.toc)
 \tf@toc=\write4
 \openout4 = `РћС‚С‡С‘С‚_2РєСѓСЂСЃ.toc'.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 19.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 
+l.19 
       [1]
-Overfull \hbox (1.29211pt too wide) in paragraph at lines 23--24
+Overfull \hbox (1.29211pt too wide) in paragraph at lines 22--23
 \T2A/cmr/m/n/14.4 аль-ным, от-но-ше-ни-я-ми ко-ли-че-ства ма-те-рии к ан-ти-ма-
 те-рии --- Ба-ри-он-ная Асим-
  []
 
 
-Overfull \hbox (18.23718pt too wide) in paragraph at lines 23--24
+Overfull \hbox (18.23718pt too wide) in paragraph at lines 22--23
 \T2A/cmr/m/n/14.4 чре-зыв-чай-но успеш-ной (как под-твер-жда-ет-ся недав-ним от
 -кры-ти-ем Бо-зо-на Хиггса
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 32.
 [2]
-Overfull \hbox (5.85304pt too wide) in paragraph at lines 38--39
+Overfull \hbox (5.85304pt too wide) in paragraph at lines 37--38
 \T2A/cmr/m/n/14.4 су-ет-ся со стан-дарт-ной мо-де-лью эле-мен-тар-ных ча-стиц и
  ре-зуль-та-та-ми CPLEAR. 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 39.
 
-Overfull \hbox (14.01193pt too wide) in paragraph at lines 44--45
+Overfull \hbox (14.01193pt too wide) in paragraph at lines 43--44
 []\T2A/cmr/m/n/14.4 Полное се-че-ние вза-и-мо-дей-ствия в дважды-поляризованном
  рас-се-я-нимм вклю-
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 44.
 [3]
-Overfull \hbox (3.57802pt too wide) in paragraph at lines 50--51
+Overfull \hbox (3.57802pt too wide) in paragraph at lines 49--50
 \T2A/cmr/m/n/14.4 осталь-ные --- лож-ные на-блю-да-е-мые [[]]. Экс-пе-ри-мен-та
 ль-ный ди-зайн TRIC огра-
  []
 
-LaTeX Font Info:    Calculating math sizes for size <10.07994> on input line 52
+LaTeX Font Info:    Calculating math sizes for size <10.07994> on input line 51
 .
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 62.
 [4]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 67.
 
 
 LaTeX Font Warning: Font shape `T2A/cmr/m/n' in size <16.79996> not available
-(Font)              size <17.28> substituted on input line 69.
+(Font)              size <17.28> substituted on input line 68.
 
 
 LaTeX Font Warning: Font shape `T2A/cmr/bx/n' in size <16.79996> not available
-(Font)              size <17.28> substituted on input line 69.
+(Font)              size <17.28> substituted on input line 68.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 84.
 [5]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 104.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 104.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 112.
+(babel)             in language  on input line 111.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 112.
+(babel)             in language  on input line 111.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 112.
+(babel)             in language  on input line 111.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 112.
+(babel)             in language  on input line 111.
  [6]
 Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 127.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 127.
+Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 128.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 128.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 129.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 129.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 135.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 135.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 134.
  [7]
-Overfull \hbox (22.19807pt too wide) in paragraph at lines 136--137
+Overfull \hbox (22.19807pt too wide) in paragraph at lines 135--136
 []\T2A/cmr/m/n/14.4 Измерения про-из-во-ди-лись транс-фор-ма-то-ром то-ка про-и
 з-вод-ства фир-мы Bergoz,
  []
@@ -1560,14 +1565,14 @@ Package epstopdf Info: Source file: <img/Cycles_12--16.eps>
 (epstopdf)                    size: 3260799 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/Cycles_12--16-eps-conve
 rted-to.pdf img/Cycles_12--16.eps>
-(epstopdf)             \includegraphics on input line 140.
+(epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
 <img/Cycles_12--16-eps-converted-to.pdf, id=151, 560.0925pt x 582.175pt>
 File: img/Cycles_12--16-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/Cycles_12--16-eps-converted-to.pdf>
 Package pdftex.def Info: img/Cycles_12--16-eps-converted-to.pdf used on input l
-ine 140.
+ine 139.
 (pdftex.def)             Requested size: 448.0746pt x 465.74063pt.
 
 
@@ -1581,49 +1586,49 @@ Package epstopdf Info: Source file: <img/DiagPlot_969.eps>
 (epstopdf)                    size: 229933 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/DiagPlot_969-eps-conver
 ted-to.pdf img/DiagPlot_969.eps>
-(epstopdf)             \includegraphics on input line 174.
+(epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
 <img/DiagPlot_969-eps-converted-to.pdf, id=153, 560.0925pt x 582.175pt>
 File: img/DiagPlot_969-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/DiagPlot_969-eps-converted-to.pdf>
 Package pdftex.def Info: img/DiagPlot_969-eps-converted-to.pdf used on input li
-ne 174.
+ne 173.
 (pdftex.def)             Requested size: 448.0746pt x 465.74063pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 179.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 179.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 179.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 179.
  [8]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 205.
+(babel)             in language  on input line 204.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 205.
+(babel)             in language  on input line 204.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 208.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 208.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 208.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 208.
+(babel)             in language  on input line 207.
  [9]
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 []\T2A/cmr/m/n/14.4 Значение в скоб-ках --- ва-ри-а-ци-он-ное средне-
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 235.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 235.
 Package epstopdf Info: Source file: <img/Ayy_dens.eps>
 (epstopdf)                    date: 2017-01-14 13:26:42
 (epstopdf)                    size: 6907 bytes
@@ -1632,17 +1637,17 @@ Package epstopdf Info: Source file: <img/Ayy_dens.eps>
 (epstopdf)                    size: 8915 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/Ayy_dens-eps-converted-
 to.pdf img/Ayy_dens.eps>
-(epstopdf)             \includegraphics on input line 241.
+(epstopdf)             \includegraphics on input line 240.
 Package epstopdf Info: Output file is already uptodate.
 <img/Ayy_dens-eps-converted-to.pdf, id=175, 560.0925pt x 582.175pt>
 File: img/Ayy_dens-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/Ayy_dens-eps-converted-to.pdf>
 Package pdftex.def Info: img/Ayy_dens-eps-converted-to.pdf used on input line 2
-41.
+40.
 (pdftex.def)             Requested size: 448.0746pt x 465.74063pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 []\T2A/cmr/m/n/14.4 Рис. 3: []Распределение асим-мет-рии $[]$ пол-но-го се-че-н
 ия дважды-
  []
@@ -1651,9 +1656,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 242--242
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 245.
+(babel)             in language  on input line 244.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 245.
+(babel)             in language  on input line 244.
+
+Overfull \hbox (5.08679pt too wide) in paragraph at lines 245--246
+\T2A/cmr/m/n/14.4 умень-ше-ние вре-ме-ни жиз-ни пуч-ка с по-ля-ри-за-ци-ей вниз
+, и ста-ти-сти-че-ски незна-
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 246.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 246.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 246.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 246.
+[10]
 Package epstopdf Info: Source file: <img/Slopes2016_VS_Clock.eps>
 (epstopdf)                    date: 2017-01-14 13:26:42
 (epstopdf)                    size: 27298 bytes
@@ -1666,13 +1686,29 @@ df>
 (epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/Slopes2016_VS_Clock-eps-converted-to.pdf, id=176, 560.0925pt x 582.175pt>
+<img/Slopes2016_VS_Clock-eps-converted-to.pdf, id=184, 560.0925pt x 582.175pt>
 File: img/Slopes2016_VS_Clock-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/Slopes2016_VS_Clock-eps-converted-to.pdf>
 Package pdftex.def Info: img/Slopes2016_VS_Clock-eps-converted-to.pdf used on i
 nput line 249.
 (pdftex.def)             Requested size: 448.0746pt x 465.74063pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (3.73656pt too wide) in paragraph at lines 253--254
+[]\T2A/cmr/m/n/14.4 Распределения ко-эф-фи-ци-ен-та ав-то-кор-ре-ля-ции мо-дель
+-ных от-кло-не-ний пред-
+ []
+
+
+Overfull \hbox (3.37518pt too wide) in paragraph at lines 253--254
+\T2A/cmr/m/n/14.4 став-ле-ны на Рис. []5[]. По-ло-жи-тель-ная ав-то-кор-ре-ля-ц
+ия сви-де-тель-ству-ет об инерт-
+ []
+
 Package epstopdf Info: Source file: <img/ACF1_dens.eps>
 (epstopdf)                    date: 2017-01-14 13:26:42
 (epstopdf)                    size: 85740 bytes
@@ -1683,18 +1719,16 @@ Package epstopdf Info: Source file: <img/ACF1_dens.eps>
 -to.pdf img/ACF1_dens.eps>
 (epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
-
-<img/ACF1_dens-eps-converted-to.pdf, id=177, 560.0925pt x 582.175pt>
+<img/ACF1_dens-eps-converted-to.pdf, id=186, 560.0925pt x 582.175pt>
 File: img/ACF1_dens-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/ACF1_dens-eps-converted-to.pdf>
 Package pdftex.def Info: img/ACF1_dens-eps-converted-to.pdf used on input line 
 257.
-(pdftex.def)             Requested size: 280.04556pt x 291.08679pt.
+(pdftex.def)             Requested size: 448.0746pt x 465.74063pt.
 
-Overfull \hbox (36.91676pt too wide) in paragraph at lines 257--258
- [][] 
- []
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <img/FStats_BP_dens.eps>
 (epstopdf)                    date: 2017-01-14 13:26:42
@@ -1704,94 +1738,172 @@ Package epstopdf Info: Source file: <img/FStats_BP_dens.eps>
 (epstopdf)                    size: 24334 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/FStats_BP_dens-eps-conv
 erted-to.pdf img/FStats_BP_dens.eps>
-(epstopdf)             \includegraphics on input line 262.
+(epstopdf)             \includegraphics on input line 265.
 Package epstopdf Info: Output file is already uptodate.
-<img/FStats_BP_dens-eps-converted-to.pdf, id=178, 560.0925pt x 582.175pt>
+<img/FStats_BP_dens-eps-converted-to.pdf, id=188, 560.0925pt x 582.175pt>
 File: img/FStats_BP_dens-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/FStats_BP_dens-eps-converted-to.pdf>
 Package pdftex.def Info: img/FStats_BP_dens-eps-converted-to.pdf used on input 
-line 262.
-(pdftex.def)             Requested size: 280.04556pt x 291.08679pt.
-
-Overfull \hbox (36.91676pt too wide) in paragraph at lines 262--263
- [][] 
- []
-
-
-Overfull \hbox (9.12656pt too wide) in paragraph at lines 255--265
- []$[]$   $[]$ 
- []
+line 265.
+(pdftex.def)             Requested size: 448.0746pt x 465.74063pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (7.57826pt too wide) in paragraph at lines 267--267
+Overfull \hbox (7.57826pt too wide) in paragraph at lines 269--269
 []\T2A/cmr/bx/n/20.74 Статистические тре-бо-ва-ния к про-ве-де-нию экс-
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 267.
+(babel)             in language  on input line 269.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 267.
+(babel)             in language  on input line 269.
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \v with sig. 'm' on line 274.
+.................................................
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
+[]\T2A/cmr/m/n/14.4 Beam revolution
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
+[]\T2A/cmr/m/n/14.4 Beam spin up-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
+\T2A/cmr/m/n/14.4 down polarization
+ []
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 289--289
+[]$\OML/cmm/m/it/14.4 pd$ \T2A/cmr/m/n/14.4 scattering cross
+ []
+
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 292
+.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd"
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+[]\T2A/cmr/m/n/14.4 From Particle Data Group []$\T2A/cmtt/m/n/14.4 http : / / p
+dg . lbl .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+\T2A/cmtt/m/n/14.4 gov / 2016 / hadronic-[]xsections / rpp2014-[]pd _ pn _
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 277.
+(babel)             in language  on input line 309.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 277.
+(babel)             in language  on input line 309.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 277.
+(babel)             in language  on input line 309.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 277.
-[10]
-Underfull \hbox (badness 3088) in paragraph at lines 295--299
+(babel)             in language  on input line 309.
+[11]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 342.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 342.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 342.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 342.
+ [12]
+Package epstopdf Info: Source file: <img/BeamTime_15minCycles.eps>
+(epstopdf)                    date: 2017-01-14 13:26:42
+(epstopdf)                    size: 15485 bytes
+(epstopdf)             Output file: <img/BeamTime_15minCycles-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2017-01-14 19:03:32
+(epstopdf)                    size: 8658 bytes
+(epstopdf)             Command: <epstopdf --outfile=img/BeamTime_15minCycles-ep
+s-converted-to.pdf img/BeamTime_15minCycles.eps>
+(epstopdf)             \includegraphics on input line 346.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/BeamTime_15minCycles-eps-converted-to.pdf, id=214, 560.0925pt x 582.175pt>
+File: img/BeamTime_15minCycles-eps-converted-to.pdf Graphic file (type pdf)
+<use img/BeamTime_15minCycles-eps-converted-to.pdf>
+Package pdftex.def Info: img/BeamTime_15minCycles-eps-converted-to.pdf used on 
+input line 346.
+(pdftex.def)             Requested size: 448.0746pt x 465.74063pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <img/SEAyy_varB_15min.eps>
+(epstopdf)                    date: 2017-01-14 13:26:42
+(epstopdf)                    size: 14342 bytes
+(epstopdf)             Output file: <img/SEAyy_varB_15min-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2017-01-14 19:03:34
+(epstopdf)                    size: 8615 bytes
+(epstopdf)             Command: <epstopdf --outfile=img/SEAyy_varB_15min-eps-co
+nverted-to.pdf img/SEAyy_varB_15min.eps>
+(epstopdf)             \includegraphics on input line 351.
+Package epstopdf Info: Output file is already uptodate.
+<img/SEAyy_varB_15min-eps-converted-to.pdf, id=215, 560.0925pt x 582.175pt>
+File: img/SEAyy_varB_15min-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/SEAyy_varB_15min-eps-converted-to.pdf>
+Package pdftex.def Info: img/SEAyy_varB_15min-eps-converted-to.pdf used on inpu
+t line 351.
+(pdftex.def)             Requested size: 448.0746pt x 465.74063pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 356.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 356.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 356.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 356.
+[13]
+Underfull \hbox (badness 3088) in paragraph at lines 382--386
 []\T2A/cmr/m/n/14.4 Pekka K. Sinervo \T2A/cmr/m/sc/14.4 Definition and Treatmen
 t of Systematic
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 295--299
+Underfull \hbox (badness 3646) in paragraph at lines 382--386
 \T2A/cmr/m/sc/14.4 Uncertainties in High Energy Physics and Astrophysics\T2A/cm
 r/m/n/14.4 .
  []
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 301--304
+Underfull \hbox (badness 4927) in paragraph at lines 388--391
 []\T2A/cmr/m/n/14.4 Christian Servin, Martine Ceberio, Aline James, et al. \T2A
 /cmr/m/sc/14.4 How to
  []
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 316.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 316.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 316.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 316.
-[11]
-Underfull \hbox (badness 3724) in paragraph at lines 317--320
+
+Underfull \hbox (badness 3724) in paragraph at lines 404--407
 []\T2A/cmr/m/n/14.4 C. S. Wu, E. Ambler et al., \T2A/cmr/m/sc/14.4 Experimental
  Test of Parity
  []
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 322--325
+Underfull \hbox (badness 2818) in paragraph at lines 409--412
 []\T2A/cmr/m/n/14.4 P. D. Eversheim et al., \T2A/cmr/m/sc/14.4 Parity violation
  in proton proton
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 373.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 373.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 373.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 373.
-[12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 417.
-Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 417.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 417.
@@ -1799,96 +1911,144 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 417.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 417.
- [13]
+[14]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 466.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 466.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 466.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 417.
- [14 <./img/Cycles_12--16-eps-converted-to.pdf>]
+(babel)             in language  on input line 466.
+ [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 504.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 504.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 504.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 504.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 417.
- [15 <./img/DiagPlot_969-eps-converted-to.pdf>]
+(babel)             in language  on input line 504.
+ [16]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 504.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 504.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 504.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 417.
- [16 <./img/Ayy_dens-eps-converted-to.pdf>]
+(babel)             in language  on input line 504.
+ [17 <./img/Cycles_12--16-eps-converted-to.pdf>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 504.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 504.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 504.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 417.
- [17 <./img/Slopes2016_VS_Clock-eps-converted-to.pdf>]
+(babel)             in language  on input line 504.
+ [18 <./img/DiagPlot_969-eps-converted-to.pdf>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 504.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 504.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 504.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 417.
- [18 <./img/ACF1_dens-eps-converted-to.pdf> <./img/FStats_BP_dens-eps-converted
--to.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 417.
+(babel)             in language  on input line 504.
+ [19 <./img/Ayy_dens-eps-converted-to.pdf>]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 504.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 504.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 504.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 504.
+
+[20 <./img/Slopes2016_VS_Clock-eps-converted-to.pdf>]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 504.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 504.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 504.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 504.
+ [21 <./img/ACF1_dens-eps-converted-to.pdf>]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 504.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 504.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 504.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 504.
+ [22 <./img/FStats_BP_dens-eps-converted-to.pdf>]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 504.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 504.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 504.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 504.
+ [23 <./img/BeamTime_15minCycles-eps-converted-to.pdf>]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 504.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 504.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 504.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 504.
+ [24 <./img/SEAyy_varB_15min-eps-converted-to.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 504.
  (РћС‚С‡С‘С‚_2РєСѓСЂСЃ.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 417.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 417.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 504.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 504.
 Package rerunfilecheck Info: File `РћС‚С‡С‘С‚_2РєСѓСЂСЃ.out' has not changed.
 (rerunfilecheck)             Checksum: CFC157DC3D807189AA0043349C2EC380;2856.
+
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.55002pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 20996 strings out of 493334
- 349230 string characters out of 3136633
- 435174 words of memory out of 3000000
- 24242 multiletter control sequences out of 15000+200000
- 18137 words of font info for 43 fonts, out of 3000000 for 9000
+ 21055 strings out of 493334
+ 350588 string characters out of 3136633
+ 437059 words of memory out of 3000000
+ 24282 multiletter control sequences out of 15000+200000
+ 18447 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,14n,52p,10416b,525s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 50i,14n,52p,10416b,523s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\РђРєСЃРµРЅС‚СЊРµРІ\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-
 t2a\dpi600\lacc1440.pk> <C:\Users\РђРєСЃРµРЅС‚СЊРµРІ\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk> <C:\Users\РђРєСЃРµРЅС‚СЊРµРІ\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1440.pk> <C:\Users\Р
-ђРєСЃРµРЅС‚СЊРµРІ\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lat
-i1440.pk> <C:\Users\РђРєСЃРµРЅС‚СЊРµРІ\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\lh\lh-t2a\dpi600\labx1728.pk> <C:\Users\РђРєСЃРµРЅС‚СЊРµРІ\AppData\Local\MiKTe
-X\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2074.pk> <C:\Users\РђРєСЃРµРЅС‚СЊРµР
-І\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\laxc1440.pk> <C:\Us
+onts\pk\ljfour\lh\lh-t2a\dpi600\latt1440.pk> <C:\Users\РђРєСЃРµРЅС‚СЊРµРІ\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk> <C:\Users\РђР
+єСЃРµРЅС‚СЊРµРІ\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcr
+m1440.pk> <C:\Users\РђРєСЃРµРЅС‚СЊРµРІ\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\lh\lh-t2a\dpi600\lati1440.pk> <C:\Users\РђРєСЃРµРЅС‚СЊРµРІ\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk> <C:\Users\РђРєСЃРµРЅС‚СЊРµР
+І\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2074.pk> <C:\Us
 ers\РђРєСЃРµРЅС‚СЊРµРІ\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi60
-0\labx1440.pk> <C:\Users\РђРєСЃРµРЅС‚СЊРµРІ\AppData\Local\MiKTeX\2.9\fonts\pk\l
-jfour\lh\lh-t2a\dpi600\lacc1200.pk> <C:\Users\РђРєСЃРµРЅС‚СЊРµРІ\AppData\Local\
-MiKTeX\2.9\fonts\pk\ljfour\unknown\unknown\dpi600\larm1440.pk><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on РћС‚С‡С‘С‚_2РєСѓСЂСЃ.pdf (19 pages, 3852304 bytes).
+0\laxc1440.pk> <C:\Users\РђРєСЃРµРЅС‚СЊРµРІ\AppData\Local\MiKTeX\2.9\fonts\pk\l
+jfour\lh\lh-t2a\dpi600\labx1440.pk> <C:\Users\РђРєСЃРµРЅС‚СЊРµРІ\AppData\Local\
+MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lacc1200.pk> <C:\Users\РђРєСЃРµРЅС‚
+СЊРµРІ\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\unknown\unknown\dpi600\larm1440
+.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on РћС‚С‡С‘С‚_2РєСѓСЂСЃ.pdf (25 pages, 3893997 bytes).
 PDF statistics:
- 771 PDF objects out of 1000 (max. 8388607)
- 83 named destinations out of 1000 (max. 500000)
- 135 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 864 PDF objects out of 1000 (max. 8388607)
+ 96 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
