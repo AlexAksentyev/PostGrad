@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{web:SynBioFAQ}
 Synthetic biology.
@@ -35,6 +35,11 @@ Gomez-Gil Nicolas-Alonso.
 \bibitem{web:SynBioUses}
 Biology~Innovation Organization.
 \newblock \url{https://www.bio.org/articles/current-uses-synthetic-biology}.
+
+\bibitem{web:EdTech}
+Clark Quinn.
+\newblock
+  \url{http://www.litmos.com/blog/hi-tech/10-new-learning-technologies-by-dr-clark-quinn}.
 
 \bibitem{web:ChpTube}
 Cheap Tubes.

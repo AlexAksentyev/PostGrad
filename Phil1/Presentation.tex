@@ -5,12 +5,14 @@
 
 \usepackage{url}
 \usepackage{xfrac}
+\usepackage{paralist}
 
 \title{NBICS Technologies}
 \author{Alexander Aksentyev}
 \institute{National Research Nuclear University ``MEPhI''}
 \date{}
 
+\setbeamercovered{transparent}
 
 \begin{document}
 	\begin{frame}
@@ -23,7 +25,7 @@
 	\frametitle{Carbon allotropes}
 	\begin{columns}
 		\column{.4\textwidth}
-		Allotropy is the property of some chemical elements to exist in several different geometries (known as \emph{allotropes}) in the same physical phase.
+		Allotropy is the property of some chemical elements to exist in several different geometries (known as \emph{allotropes}) in the same physical phase
 		\column{.6\textwidth}
 		\includegraphics[scale=.45]{CarbAllotropes}
 	\end{columns}
@@ -121,7 +123,7 @@
 	\begin{center}
 		\includegraphics[scale=.4]{SynBio_main}
 	\end{center}
-	A set of technologies to construct living organisms with desired phenotypes. 
+	A set of technologies to construct living organisms with desired phenotypes
 \end{frame}
 \begin{frame}
 		\begin{itemize}
@@ -282,6 +284,37 @@
 \end{frame}
 
 \begin{frame}
+	\frametitle{Top technologies:\only<1>{ AI, VR, VW}\only<2>{ AR}\only<3>{ ARG}}
+	
+		\only<1>{
+			\begin{description}[VW]
+				\item[AI] Customized learning-experience is already a reality. An intelligent tutoring system consists of:
+					\begin{description}[tutoring model]
+						\item[learner model] to assess how the student is doing 
+						\item[tutoring model] to determine what material to present next 
+						\item[domain model] to represent it appropriately
+					\end{description}
+				\item[VR] Learn by doing. One can now explore and interact with molecules and galaxies, thanks to virtual reality
+				\item[VW] Socialization is a vital part in a person's development, and as it turns out, introverted kids don't feel anxious interacting online
+			\end{description}
+		}
+	
+		\only<2>{Use the user's context to specify information}
+		\only<2>{
+			\begin{center}
+				\includegraphics[scale=.4]{AR_example}
+			\end{center}
+		}
+		
+		\only<3>{Enabling the use of communication tools typically used in the workspace, provides learning opportunities by situating important decisions in a thematic story}
+		\only<3>{
+			\begin{center}
+				\includegraphics[scale=.15]{ARG_example}
+			\end{center}
+		}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
 	\frametitle{References}
 	\nocite{*}
 	\bibliographystyle{plain}
