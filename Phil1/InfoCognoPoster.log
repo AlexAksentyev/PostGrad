@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  16 JAN 2017 22:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  17 JAN 2017 19:06
 entering extended mode
 **./InfoCognoPoster.tex
 (InfoCognoPoster.tex
@@ -615,9 +615,6 @@ File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \notelinewidth=\dimen289
 
 
-Package tikzposter Warning: Unknown Option 24pt. on input line 204.
-
-
 Package tikzposter Warning: Unknown Option a2papper. on input line 204.
 
 
@@ -1059,23 +1056,23 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 )
 
 LaTeX Warning: Unused global option(s):
-    [24pt,a2papper].
+    [a2papper].
 
 (InfoCognoPoster.aux)
 \openout1 = `InfoCognoPoster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
  ABD: EveryShipout initializing macros
 (C:\Users\Аксентьев\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-p
 df.mkii
@@ -1170,45 +1167,69 @@ G,.JBIG2,.JB2,.eps]
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 1 in font nullfont!
-<BrainNeuron.png, id=28, 372.64218pt x 225.84375pt>
-File: BrainNeuron.png Graphic file (type png)
- <use BrainNeuron.png>
-Package pdftex.def Info: BrainNeuron.png used on input line 40.
-(pdftex.def)             Requested size: 745.28253pt x 451.68637pt.
+<icon/PervComp_circ.png, id=28, 731.73375pt x 635.37375pt>
+File: icon/PervComp_circ.png Graphic file (type png)
 
-<ANN_diagram.png, id=30, 604.1772pt x 350.2686pt>
-File: ANN_diagram.png Graphic file (type png)
- <use ANN_diagram.png>
-Package pdftex.def Info: ANN_diagram.png used on input line 40.
-(pdftex.def)             Requested size: 604.17572pt x 350.26775pt.
+<use icon/PervComp_circ.png>
+Package pdftex.def Info: icon/PervComp_circ.png used on input line 60.
+(pdftex.def)             Requested size: 585.3878pt x 508.29968pt.
 
-<PervComp_IoT.jpg, id=31, 394.23285pt x 207.05354pt>
-File: PervComp_IoT.jpg Graphic file (type jpg)
- <use PervComp_IoT.jpg>
-Package pdftex.def Info: PervComp_IoT.jpg used on input line 53.
-(pdftex.def)             Requested size: 1914.30872pt x 1005.67754pt.
+<icon/android_circ.png, id=30, 540.0175pt x 590.205pt>
+File: icon/android_circ.png Graphic file (type png)
+
+<use icon/android_circ.png>
+Package pdftex.def Info: icon/android_circ.png used on input line 60.
+(pdftex.def)             Requested size: 135.00404pt x 147.55089pt.
+
+<icon/devices_circ.png, id=33, 659.46375pt x 638.385pt>
+File: icon/devices_circ.png Graphic file (type png)
+
+<use icon/devices_circ.png>
+Package pdftex.def Info: icon/devices_circ.png used on input line 60.
+(pdftex.def)             Requested size: 164.86552pt x 159.59586pt.
+
+<icon/DNAdrive_circ.png, id=36, 200.75pt x 200.75pt>
+File: icon/DNAdrive_circ.png Graphic file (type png)
+
+<use icon/DNAdrive_circ.png>
+Package pdftex.def Info: icon/DNAdrive_circ.png used on input line 60.
+(pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
+
+<icon/Bin_to_DNA.jpg, id=37, 981.9084pt x 251.0178pt>
+File: icon/Bin_to_DNA.jpg Graphic file (type jpg)
+
+<use icon/Bin_to_DNA.jpg>
+Package pdftex.def Info: icon/Bin_to_DNA.jpg used on input line 60.
+(pdftex.def)             Requested size: 1472.85901pt x 376.52577pt.
+
+Overfull \hbox (25.25143pt too wide) in paragraph at lines 60--60
+ [] 
+ []
 
 [1
 
 {C:/Users/Аксентьев/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
- <./BrainNeuron.png> <./ANN_diagram.png> <./PervComp_IoT.jpg>]
-(InfoCognoPoster.aux) ) 
+ <./icon/PervComp_circ.png> <./icon/android_circ.png> <./icon/devices_circ.png>
+ <./icon/DNAdrive_circ.png> <./icon/Bin_to_DNA.jpg>] (InfoCognoPoster.aux) ) 
 Here is how much of TeX's memory you used:
- 17592 strings out of 493334
- 386083 string characters out of 3136633
- 477281 words of memory out of 3000000
- 20681 multiletter control sequences out of 15000+200000
- 48277 words of font info for 99 fonts, out of 3000000 for 9000
+ 17819 strings out of 493334
+ 391920 string characters out of 3136633
+ 495793 words of memory out of 3000000
+ 20902 multiletter control sequences out of 15000+200000
+ 55218 words of font info for 114 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,84p,827b,1315s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmti12.pfb>
-Output written on InfoCognoPoster.pdf (1 page, 160881 bytes).
+ 62i,22n,84p,827b,1810s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on InfoCognoPoster.pdf (1 page, 1218535 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

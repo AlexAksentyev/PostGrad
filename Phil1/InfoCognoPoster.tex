@@ -1,7 +1,7 @@
-\documentclass[24pt, a2papper, portrait]{tikzposter}
+\documentclass[25pt, a2papper, portrait]{tikzposter}
 \usepackage[utf8]{inputenc}
 
-\title{Computing forever}
+\title{Every[Ware]}
 \author{Alexander Aksentyev}
 \date{\today}
 \institute{National Research Nuclear University ``MEPhI''}
@@ -10,45 +10,53 @@
 \usepackage{comment}
 \usepackage{url}
 \usepackage{tikz}
-\usetikzlibrary{mindmap, trees, positioning, fit}
+\usetikzlibrary{mindmap, positioning, trees, backgrounds}
 \usepackage{makecell}
 
 \usetheme{Simple}
 
-\tikzstyle{num} = [circle,text width=]
-\tikzstyle{img} = [text width=]
-\tikzstyle{note} = [fill=yellow!30, rectangle, rounded corners, text width=]
+\tikzstyle{note} = [fill=none, rectangle, rounded corners, text width=,draw=none]
+\tikzset{concept/.append style={fill={none}, line width=3mm}}
+
+%\makeatletter 
+%\tikzset{concept/.style={circle, draw=\tikz@concept@color,line width=3mm,every concept}} 
+%\makeatother
 
 \begin{document}
 	\maketitle
-	\begin{columns}
-		\column{.5}
-			\block{Artificial Neural Networks}{
-			\begin{tikzpicture}
-			\begin{scope}[num/.append style={fill=green!20}]
-			\node [img] (BN) {\includegraphics[scale=2]{BrainNeuron}};
-			\node[num, anchor=west] at(BN.north east) {\makecell[c]{\textbf{100 billion}\\ neurons\\ in the brain}};
-			\node [num, anchor=west] at(BN.south east) (con) {\makecell[c]{each one\\ connected to\\ \textbf{10,000}\\ neighbors}};
-			\end{scope}
-			\begin{scope}[num/.append style={fill=blue!20}]
-			\node [img, below=7of BN] (ANN) {\includegraphics[scale=1]{ANN_diagram}};
-			\node [num, anchor=west] at(ANN.north east)  {NUMBER 1};
-			\node [num, anchor=west] at(ANN.east) {Layers};
-			\node [num, anchor=west] at(ANN.south east) {NUMBER 3};
-			\end{scope}
-			\end{tikzpicture}
-		}
-	\end{columns}
-
 	
-	\block{AI}{
-	}
-	\column{.5}
-	\block{Wetware}{
-	}
-	\block{Pervasive Computing}{
+	\block{~}{
 		\begin{center}
-			\includegraphics[width=.8\textwidth]{PervComp_IoT}
+			\begin{tikzpicture}[mindmap, grow cyclic, every node/.style=concept,  
+			align=flush center, text width=, concept color=red!50!yellow!50,
+			level 1/.style={level distance=35cm,sibling angle=90},
+			level 2/.style={level distance=13cm,sibling angle=90}
+			]
+				\node{\makecell{\includegraphics[scale=.8]{icon/PervComp_circ}}}
+					child[concept color=blue!50]{ node{\includegraphics[scale=.25]{icon/android_circ}}
+						child{ node{AI}}
+						child{ node{VR}}
+						child{ node{AR}}
+						child{ node{ANN}}
+					}
+					child[concept color=gray!50]{ node{\includegraphics[scale=.25]{icon/devices_circ}} 
+						child{ node{\makecell{\textbf{4 billion}\\ Connected\\People}}}
+						child{ node{\makecell{\textbf{25+ billion}\\Embedded\\Systems}}}
+						child{ node{\makecell{\textbf{50 trillion}\\ GBs of Data}}}
+					}
+					child{ node (DNAdrive) {\includegraphics[scale=1]{icon/DNAdrive_circ}}
+						child{ node{\makecell{\textbf{<100} $\mu$s/bit\\Read/Write\\Speed}}}
+						child{ node{\makecell{\textbf{100+} years}\\Data\\Retention}}
+						child{ node{\makecell{\boldmath $<10^{-10}$ W/GB\\ Power Use}}}
+						child{ node(DNAdense){\makecell{\boldmath$\sim10^{19}$ bits/cm$^3$\\ Data Density}}}
+					};
+				\node[note, right=9 of DNAdrive] {\includegraphics[scale=1.5]{icon/Bin_to_DNA}};
+				\node[font=\Large, left=1.5 of DNAdrive] (WWWDNAWeight) {\makecell{\textbf{1} kg\\=\\WWW}};
+%				\begin{pgfonlayer}
+					\draw[circle connection bar] (DNAdense) edge (WWWDNAWeight);
+%				\end{pgfonlayer}
+			\end{tikzpicture}
 		\end{center}
-	}
+}
+
 \end{document}
