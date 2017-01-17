@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  17 JAN 2017 19:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  17 JAN 2017 19:15
 entering extended mode
 **./InfoCognoPoster.tex
 (InfoCognoPoster.tex
@@ -1171,38 +1171,38 @@ Missing character: There is no 1 in font nullfont!
 File: icon/PervComp_circ.png Graphic file (type png)
 
 <use icon/PervComp_circ.png>
-Package pdftex.def Info: icon/PervComp_circ.png used on input line 60.
+Package pdftex.def Info: icon/PervComp_circ.png used on input line 59.
 (pdftex.def)             Requested size: 585.3878pt x 508.29968pt.
 
 <icon/android_circ.png, id=30, 540.0175pt x 590.205pt>
 File: icon/android_circ.png Graphic file (type png)
 
 <use icon/android_circ.png>
-Package pdftex.def Info: icon/android_circ.png used on input line 60.
+Package pdftex.def Info: icon/android_circ.png used on input line 59.
 (pdftex.def)             Requested size: 135.00404pt x 147.55089pt.
 
 <icon/devices_circ.png, id=33, 659.46375pt x 638.385pt>
 File: icon/devices_circ.png Graphic file (type png)
 
 <use icon/devices_circ.png>
-Package pdftex.def Info: icon/devices_circ.png used on input line 60.
+Package pdftex.def Info: icon/devices_circ.png used on input line 59.
 (pdftex.def)             Requested size: 164.86552pt x 159.59586pt.
 
 <icon/DNAdrive_circ.png, id=36, 200.75pt x 200.75pt>
 File: icon/DNAdrive_circ.png Graphic file (type png)
 
 <use icon/DNAdrive_circ.png>
-Package pdftex.def Info: icon/DNAdrive_circ.png used on input line 60.
+Package pdftex.def Info: icon/DNAdrive_circ.png used on input line 59.
 (pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
 
-<icon/Bin_to_DNA.jpg, id=37, 981.9084pt x 251.0178pt>
+<icon/Bin_to_DNA.jpg, id=39, 981.9084pt x 251.0178pt>
 File: icon/Bin_to_DNA.jpg Graphic file (type jpg)
 
 <use icon/Bin_to_DNA.jpg>
-Package pdftex.def Info: icon/Bin_to_DNA.jpg used on input line 60.
+Package pdftex.def Info: icon/Bin_to_DNA.jpg used on input line 59.
 (pdftex.def)             Requested size: 1472.85901pt x 376.52577pt.
 
-Overfull \hbox (25.25143pt too wide) in paragraph at lines 60--60
+Overfull \hbox (25.25143pt too wide) in paragraph at lines 59--59
  [] 
  []
 
@@ -1212,13 +1212,13 @@ Overfull \hbox (25.25143pt too wide) in paragraph at lines 60--60
  <./icon/PervComp_circ.png> <./icon/android_circ.png> <./icon/devices_circ.png>
  <./icon/DNAdrive_circ.png> <./icon/Bin_to_DNA.jpg>] (InfoCognoPoster.aux) ) 
 Here is how much of TeX's memory you used:
- 17819 strings out of 493334
- 391920 string characters out of 3136633
- 495793 words of memory out of 3000000
- 20902 multiletter control sequences out of 15000+200000
+ 17822 strings out of 493334
+ 391974 string characters out of 3136633
+ 499107 words of memory out of 3000000
+ 20905 multiletter control sequences out of 15000+200000
  55218 words of font info for 114 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,22n,84p,827b,1810s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,22n,84p,827b,1812s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
@@ -1227,9 +1227,9 @@ gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on InfoCognoPoster.pdf (1 page, 1218535 bytes).
+Output written on InfoCognoPoster.pdf (1 page, 1219149 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 152 words of extra memory for PDF output out of 10000 (max. 10000000)
 

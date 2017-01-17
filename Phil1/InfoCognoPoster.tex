@@ -10,7 +10,7 @@
 \usepackage{comment}
 \usepackage{url}
 \usepackage{tikz}
-\usetikzlibrary{mindmap, positioning, trees, backgrounds}
+\usetikzlibrary{mindmap, positioning, trees}
 \usepackage{makecell}
 
 \usetheme{Simple}
@@ -44,19 +44,22 @@
 						child{ node{\makecell{\textbf{25+ billion}\\Embedded\\Systems}}}
 						child{ node{\makecell{\textbf{50 trillion}\\ GBs of Data}}}
 					}
-					child{ node (DNAdrive) {\includegraphics[scale=1]{icon/DNAdrive_circ}}
+					child[concept color=blue!30!green!30]{ node (DNAdrive) {\includegraphics[scale=1]{icon/DNAdrive_circ}}
 						child{ node{\makecell{\textbf{<100} $\mu$s/bit\\Read/Write\\Speed}}}
 						child{ node{\makecell{\textbf{100+} years}\\Data\\Retention}}
 						child{ node{\makecell{\boldmath $<10^{-10}$ W/GB\\ Power Use}}}
 						child{ node(DNAdense){\makecell{\boldmath$\sim10^{19}$ bits/cm$^3$\\ Data Density}}}
 					};
+				
 				\node[note, right=9 of DNAdrive] {\includegraphics[scale=1.5]{icon/Bin_to_DNA}};
-				\node[font=\Large, left=1.5 of DNAdrive] (WWWDNAWeight) {\makecell{\textbf{1} kg\\=\\WWW}};
-%				\begin{pgfonlayer}
-					\draw[circle connection bar] (DNAdense) edge (WWWDNAWeight);
-%				\end{pgfonlayer}
+				\node[font=\Large, left=1.5 of DNAdrive, draw=blue!30!green!30] (WWWDNAWeight) {\makecell{\textbf{1} kg\\=\\WWW}};
+				\draw[circle connection bar, color=blue!30!green!30, fill=blue!30!green!30] (DNAdense) to (WWWDNAWeight);
 			\end{tikzpicture}
 		\end{center}
 }
+
+% http://www.irdindia.in/journal_ijraet/pdf/vol3_iss8/7.pdf
+% http://www.nanalyze.com/app/uploads/2017/01/DNA-Data-Storage.jpg
+% http://www.audiotech.com/trends-magazine/images/articles/2014/10/pg36.png
 
 \end{document}
