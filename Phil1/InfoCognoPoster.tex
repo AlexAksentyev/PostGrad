@@ -15,7 +15,7 @@
 
 \usetheme{Simple}
 
-\tikzstyle{note} = [fill=none, rectangle, rounded corners, text width=,draw=none]
+\tikzstyle{note} = [fill=none, rectangle, rounded corners,draw=none]
 \tikzset{concept/.append style={fill={none}, line width=3mm}}
 
 %\makeatletter 
@@ -30,19 +30,28 @@
 			\begin{tikzpicture}[mindmap, grow cyclic, every node/.style=concept,  
 			align=flush center, text width=, concept color=red!50!yellow!50,
 			level 1/.style={level distance=35cm,sibling angle=90},
-			level 2/.style={level distance=13cm,sibling angle=90}
+			level 2/.style={level distance=13cm,sibling angle=90},
+			level 3/.style={level distance=10cm, sibling angle=60},
 			]
 				\node{\makecell{\includegraphics[scale=.8]{icon/PervComp_circ}}}
-					child[concept color=blue!50]{ node{\includegraphics[scale=.25]{icon/android_circ}}
-						child{ node{AI}}
-						child{ node{VR}}
-						child{ node{AR}}
-						child{ node{ANN}}
-					}
 					child[concept color=gray!50]{ node{\includegraphics[scale=.25]{icon/devices_circ}} 
 						child{ node{\makecell{\textbf{4 billion}\\ Connected\\People}}}
 						child{ node{\makecell{\textbf{25+ billion}\\Embedded\\Systems}}}
-						child{ node{\makecell{\textbf{50 trillion}\\ GBs of Data}}}
+						child{ node(IoTData){\makecell{\textbf{50 trillion}\\ GBs of Data}}}
+					}
+					child[concept color=blue!50]{ node(Soft){\includegraphics[scale=.25]{icon/android_circ}}
+						child{ node(AI){\includegraphics[scale=.8]{icon/AI_circ}}}
+						child{ node{\includegraphics[scale=.35]{icon/AR}}
+							child{ node{\makecell{\textbf{9}\%\\Property/\\Construction}}}
+							child{ node{\makecell{\textbf{10}\%\\Aerospace/\\Defense}}}
+							child{ node{\makecell{\textbf{13}\%\\Travel}}}
+							child{ node{\makecell{\textbf{17}\%\\Healthcare}}}
+						}
+						child{ node{\includegraphics[scale=.2]{icon/VR}}
+							child{ node{\makecell{\textbf{23}\%\\Education}}}
+							child{ node{\makecell{\textbf{45}\%\\Entertain-\\ment}}}
+							child{ node{\makecell{\textbf{60}\%\\Gaming}}}										
+						}
 					}
 					child[concept color=blue!30!green!30]{ node (DNAdrive) {\includegraphics[scale=1]{icon/DNAdrive_circ}}
 						child{ node{\makecell{\textbf{<100} $\mu$s/bit\\Read/Write\\Speed}}}
@@ -51,9 +60,13 @@
 						child{ node(DNAdense){\makecell{\boldmath$\sim10^{19}$ bits/cm$^3$\\ Data Density}}}
 					};
 				
-				\node[note, right=9 of DNAdrive] {\includegraphics[scale=1.5]{icon/Bin_to_DNA}};
+				\node[note, draw=none, right=7.8 of DNAdrive] {\includegraphics[scale=1.5]{icon/Bin_to_DNA}};
 				\node[font=\Large, left=1.5 of DNAdrive, draw=blue!30!green!30] (WWWDNAWeight) {\makecell{\textbf{1} kg\\=\\WWW}};
-				\draw[circle connection bar, color=blue!30!green!30, fill=blue!30!green!30] (DNAdense) to (WWWDNAWeight);
+				\draw[circle connection bar,color=blue!30!green!30, fill=blue!30!green!30] (DNAdense) to (WWWDNAWeight);
+
+				\path (IoTData) to [circle connection bar switch color=from (gray!50) to (blue!50)] node[draw=none,midway, sloped]{\makecell{Machine learning is a must\\ to make sense of all this data}} (AI);
+				
+				\node[note, below right=23.5 and 10 of Soft, anchor=north] {\includegraphics[scale=1.1]{icon/VR_AR_Application_stats}};
 			\end{tikzpicture}
 		\end{center}
 }

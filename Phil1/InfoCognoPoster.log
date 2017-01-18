@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  17 JAN 2017 19:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  18 JAN 2017 15:12
 entering extended mode
 **./InfoCognoPoster.tex
 (InfoCognoPoster.tex
@@ -1171,65 +1171,92 @@ Missing character: There is no 1 in font nullfont!
 File: icon/PervComp_circ.png Graphic file (type png)
 
 <use icon/PervComp_circ.png>
-Package pdftex.def Info: icon/PervComp_circ.png used on input line 59.
+Package pdftex.def Info: icon/PervComp_circ.png used on input line 72.
 (pdftex.def)             Requested size: 585.3878pt x 508.29968pt.
 
-<icon/android_circ.png, id=30, 540.0175pt x 590.205pt>
-File: icon/android_circ.png Graphic file (type png)
-
-<use icon/android_circ.png>
-Package pdftex.def Info: icon/android_circ.png used on input line 59.
-(pdftex.def)             Requested size: 135.00404pt x 147.55089pt.
-
-<icon/devices_circ.png, id=33, 659.46375pt x 638.385pt>
+<icon/devices_circ.png, id=30, 659.46375pt x 638.385pt>
 File: icon/devices_circ.png Graphic file (type png)
 
 <use icon/devices_circ.png>
-Package pdftex.def Info: icon/devices_circ.png used on input line 59.
+Package pdftex.def Info: icon/devices_circ.png used on input line 72.
 (pdftex.def)             Requested size: 164.86552pt x 159.59586pt.
 
-<icon/DNAdrive_circ.png, id=36, 200.75pt x 200.75pt>
+<icon/android_circ.png, id=33, 540.0175pt x 590.205pt>
+File: icon/android_circ.png Graphic file (type png)
+
+<use icon/android_circ.png>
+Package pdftex.def Info: icon/android_circ.png used on input line 72.
+(pdftex.def)             Requested size: 135.00404pt x 147.55089pt.
+ <icon/AI_circ.png, id=34, 120.45pt x 86.4831pt>
+File: icon/AI_circ.png Graphic file (type png)
+
+<use icon/AI_circ.png>
+Package pdftex.def Info: icon/AI_circ.png used on input line 72.
+(pdftex.def)             Requested size: 96.3601pt x 69.18655pt.
+ <icon/AR.png, id=35, 301.125pt x 301.125pt>
+File: icon/AR.png Graphic file (type png)
+
+<use icon/AR.png>
+Package pdftex.def Info: icon/AR.png used on input line 72.
+(pdftex.def)             Requested size: 105.39532pt x 105.39532pt.
+ <icon/VR.png, id=36, 513.92pt x 513.92pt>
+File: icon/VR.png Graphic file (type png)
+ <use icon/VR.png>
+Package pdftex.def Info: icon/VR.png used on input line 72.
+(pdftex.def)             Requested size: 102.78217pt x 102.78217pt.
+
+<icon/DNAdrive_circ.png, id=39, 200.75pt x 200.75pt>
 File: icon/DNAdrive_circ.png Graphic file (type png)
 
 <use icon/DNAdrive_circ.png>
-Package pdftex.def Info: icon/DNAdrive_circ.png used on input line 59.
+Package pdftex.def Info: icon/DNAdrive_circ.png used on input line 72.
 (pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
 
-<icon/Bin_to_DNA.jpg, id=39, 981.9084pt x 251.0178pt>
+<icon/Bin_to_DNA.jpg, id=42, 981.9084pt x 251.0178pt>
 File: icon/Bin_to_DNA.jpg Graphic file (type jpg)
 
 <use icon/Bin_to_DNA.jpg>
-Package pdftex.def Info: icon/Bin_to_DNA.jpg used on input line 59.
+Package pdftex.def Info: icon/Bin_to_DNA.jpg used on input line 72.
 (pdftex.def)             Requested size: 1472.85901pt x 376.52577pt.
 
-Overfull \hbox (25.25143pt too wide) in paragraph at lines 59--59
+<icon/VR_AR_Application_stats.jpg, id=45, 963.6pt x 686.565pt>
+File: icon/VR_AR_Application_stats.jpg Graphic file (type jpg)
+
+<use icon/VR_AR_Application_stats.jpg>
+Package pdftex.def Info: icon/VR_AR_Application_stats.jpg used on input line 72
+.
+(pdftex.def)             Requested size: 1059.9633pt x 755.22385pt.
+
+Overfull \hbox (97.30577pt too wide) in paragraph at lines 72--72
  [] 
  []
 
 [1
 
 {C:/Users/Аксентьев/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
- <./icon/PervComp_circ.png> <./icon/android_circ.png> <./icon/devices_circ.png>
- <./icon/DNAdrive_circ.png> <./icon/Bin_to_DNA.jpg>] (InfoCognoPoster.aux) ) 
+ <./icon/PervComp_circ.png> <./icon/devices_circ.png> <./icon/android_circ.png>
+ <./icon/AI_circ.png> <./icon/AR.png> <./icon/VR.png> <./icon/DNAdrive_circ.png
+> <./icon/Bin_to_DNA.jpg> <./icon/VR_AR_Application_stats.jpg>]
+(InfoCognoPoster.aux) ) 
 Here is how much of TeX's memory you used:
- 17822 strings out of 493334
- 391974 string characters out of 3136633
- 499107 words of memory out of 3000000
- 20905 multiletter control sequences out of 15000+200000
+ 17887 strings out of 493334
+ 393005 string characters out of 3136633
+ 514398 words of memory out of 3000000
+ 20966 multiletter control sequences out of 15000+200000
  55218 words of font info for 114 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,22n,84p,827b,1812s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on InfoCognoPoster.pdf (1 page, 1219150 bytes).
+ 62i,22n,86p,827b,2042s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmbsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmmib10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmti12.pfb>
+Output written on InfoCognoPoster.pdf (1 page, 1483009 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 152 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 178 words of extra memory for PDF output out of 10000 (max. 10000000)
 
