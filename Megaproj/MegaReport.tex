@@ -1,0 +1,75 @@
+\documentclass{extarticle}
+
+%\usepackage{repsty}
+\usepackage{hyperref}
+\usepackage{url}
+
+\usepackage{graphicx}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english, russian]{babel}
+
+
+\begin{document}
+\input{TitlePage.tex}
+
+\tableofcontents
+\pagebreak
+
+\section*{Введение}
+Зачем искать ЭДМ.
+	\begin{itemize}
+		\item Барионная асимметрия вселенной;
+		\item Условия Сахарова;
+		\item Связь ЭДМ с нарушениями P-,T-симметрий
+		\item Предсказания Стандартной Модели о величине ЭДМ;
+		\item Если действительно найдём ЭДМ больше, чем предсказывает СМ, то значит нашли физику за её пределами.
+	\end{itemize}
+Поиск ЭДМ --- это мегазадача, над которой работает множество исселдовательских групп по всему миру. В частности, в JEDI коллаборации участвуют, среди прочих, исследователи из: CERN, Петербургского Института Ядерной Физики (Гатчина, Россия), Brookhaven National Laboratory (Аптон, Нью-Йорк, США), IKP Forschungszentrum J\"ulich (Юлих, Германия), LPSC (Гренобль Франция), Istituto Nazionale di Fisica Nucleare (Феррара, Италия).~\cite{JEDI}
+
+\section{Поиск ЭДМ в накопительном кольце}
+Мегазадача требует мегаустановку, для своего решения. Как искать ЭДМ с помощью накопительного кольца.
+	\begin{itemize}
+		\item Что такое накопительное кольцо;
+		\item Уравнение T-BMT;
+		\item[\textbf{short:}] Условие заморозки спина => концепция Frozen Spin (BNL proposal~\cite{BNL});
+		\item[\textbf{short:}] Незначительное ослабление полезного сигнала при релаксации FS условия => концепция Quasi-frozen Spin (Сеничев~\cite{Senichev});
+		\item[\textbf{summary:}] Четыре фундаментальные концепции поиска ЭДМ в неидеальном накопительном кольце.
+	\end{itemize}
+	
+\begin{figure}
+	\centering
+	\includegraphics[scale=.6]{TheFourConcepts.pdf}
+	\caption{Четыре концепции.}
+\end{figure}
+
+\section{Накопительные кольца для поиска дейтронного ЭДМ}
+\subsection{FS кольцо}
+	\subsubsection{Концепция эксперимента}
+		Измеряем рост вертикальной компоненты поляризации за 1000 секунд.
+	\subsubsection{Структура ускорителя}
+	\subsubsection{Декогеренция спина}
+		Ограничивает врямя измерения => нужно достичь 1000 секунд. Методы борьбы.
+	\subsubsection{Систематические ошибки}
+\subsection{QFS кольцо}
+	\subsubsection{Концепция эксперимента}
+		Фитируем сигнал, оцениваем частоту.
+	\subsubsection{Структура ускорителя}
+		Два варианта структуры.
+	\subsubsection{Калибровка}
+		Не подавляем МДМ прецессию спина => сравнение CW/CCW частот => калибровка. Как производится калибровка магнитного поля.
+\section*{Заключение}
+На данный момент, в исследовательской программе CERN планируется пауза на десять лет [в связи с анализом данных по Хиггсу?]. В связи с этим рассматривается список задач фундаментальной физики, которыми можно было бы заняться в это время. Среди приоритетных задач этого списка --- поиск ЭДМ. 
+
+Поскольку протонное кольцо можно сделать полностью электростатическим (позволяет величина $G$), в то время как дейтронное принципиально требует магнитные элементы, если ЦЕРН решит заняться поиском ЭДМ, вероятнее всего будет построено протонное кольцо.
+\begin{thebibliography}{0}
+	\bibitem{JEDI}
+	JEDI Collaboration. \url{http://collaborations.fz-juelich.de/ikp/jedi/index.shtml}
+	\bibitem{BNL}
+	D. Anastassopoulos, V. Anastassopoulos, D. Babusci. AGS Proposal: Search for a permanent electric dipole moment of the deuteron nucleus at the $10^{-29} e\cdot cm$ level. [Internet]. BNL; 2008 [cited 2016 Nov 25]. Available from: \url{https://www.bnl.gov/edm/files/pdf/deuteron_proposal_080423_final.pdf}
+	\bibitem{Senichev}
+	Yurij Senichev. Search for the Charged Particle Electric Dipole Moments in Storage Rings. In: 25th Russian Particle Accelerator Conf(RuPAC’16), St Petersburg, Russia, November 21-25, 2016 [Internet]. JACOW, Geneva, Switzerland; 2017 [cited 2017 Apr 5]. p. 6–10. Available from: \url{http://accelconf.web.cern.ch/AccelConf/rupac2016/papers/mozmh03.pdf}
+	
+\end{thebibliography}
+\end{document}
