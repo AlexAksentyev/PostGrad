@@ -1,10 +1,12 @@
 \documentclass{extarticle}
+\usepackage[left=2cm,right=1.5cm,top=1.5cm, bottom=1.5cm]{geometry}
 
-%\usepackage{repsty}
+\usepackage{multirow}
 \usepackage{hyperref}
 \usepackage{url}
 
 \usepackage{graphicx}
+\usepackage{wrapfig}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -18,6 +20,13 @@
 \pagebreak
 
 \section*{Введение}
+JEDI-коллаборация (J\"ulich Electric Dipole Moment Investigations) была создана в 2011 году с целью провести долгосрочный проект по измерению электрического дипольного момента (ЭДМ) заряженных частиц в накопительном кольце. На текущий момент, коллаборация базируется на синхротроне COSY (Institut f\"ur Kernphysik, Forschungszentrum J\"ulich, Юлих, Германия), где разрабатывает концептуальный дизайн накопительного кольца для поиска дейтронного ЭДМ.
+
+\begin{wrapfigure}{R}{.5\textwidth}
+	\includegraphics{img/cosy_220}
+	\caption{COler SYnchrotron COSY в Исследовательском центре ``Юлих.''}
+\end{wrapfigure}
+
 Зачем искать ЭДМ.
 	\begin{itemize}
 		\item Барионная асимметрия вселенной;
@@ -27,6 +36,41 @@
 		\item Если действительно найдём ЭДМ больше, чем предсказывает СМ, то значит нашли физику за её пределами.
 	\end{itemize}
 Поиск ЭДМ --- это мегазадача, над которой работает множество исселдовательских групп по всему миру. В частности, в JEDI коллаборации участвуют, среди прочих, исследователи из: CERN, Петербургского Института Ядерной Физики (Гатчина, Россия), Brookhaven National Laboratory (Аптон, Нью-Йорк, США), IKP Forschungszentrum J\"ulich (Юлих, Германия), LPSC (Гренобль Франция), Istituto Nazionale di Fisica Nucleare (Феррара, Италия).~\cite{JEDI}
+
+\section{Финансирование}
+В 2010 году директор Института Ядерной Физики (IKP) Исследовательского центра ``Юлих,'' профессор Ганс Штрёер получил грант от Европейского совета по научным исследованиям (European Research Council) на исследование возможности поляризации антипротонов.~\cite{ERCGrant10} Эти деньги были использованы на COSY для разработки и подтверждения работоспособности метода поляризации на протонах, чтобы в дальнейшем перенести эту методологию в CERN, на эксперименты с антипротонами.
+
+В начале 2016 года, ERC выдал грант на пять лет (начиная с октября 2016) Юлихской группе (в лице доктора Штрёера), для дальнейших исследований в области Барионной Асимметрии вселенной.~\cite{ERCGrant16} Этот грант будет поддерживать также группы из Рейнско-Вестфальского Технического Университета Аахена (RWTH Aachen) в Германии, и Университета Феррары в Италии. Грант составляет 2.4 миллиарда евро.
+
+\section{Структура коллаборации~\cite{ERCGrant12}}
+
+%\begin{table}
+%	\begin{tabular}{llp{4.5cm}}
+%		\# & Функция     & Ключевой персонал                                    \\ \hline
+%		1  & Руководство & \multirow{3}{}{H. Str\"oher (Юлих, Директор IKP-2);}
+%	\end{tabular}
+%\end{table}
+
+Исполнительный совет коллаборации состоит из: Hans Str\"oher (председатель, директор IKP-2); Andreas Lerach, J\"org Pretz, Frank Rathmann (публичные представители); Volker Hejny (координатор по анализу данных); Alexander Nass (технический координатор). 
+
+Главами исследовательских групп вне института ядерных исследований являются:
+\begin{itemize}
+	\item Jean Marie de Conto (Франция),
+	\item Andro Kacharava (Грузия),
+	\item Paolo Lenisa (Италия),
+	\item Yannis Semertzidis (Корея),
+	\item Andrzej Magiera (Польша),
+	\item Николай Николаев (Россия),
+	\item Edward Stephenson (США).
+\end{itemize}
+
+\begin{wrapfigure}{R}{.5\textwidth}
+	\includegraphics[scale=.4]{img/JEDI_architecture}
+	\caption{Исследовательсике группы, аффилированные с JEDI.}
+\end{wrapfigure}
+
+
+На сегодняшний день, коллаборация насчитывает 132 члена.
 
 \section{Поиск ЭДМ в накопительном кольце}
 Мегазадача требует мегаустановку, для своего решения. Как искать ЭДМ с помощью накопительного кольца.
@@ -59,11 +103,20 @@
 		Два варианта структуры.
 	\subsubsection{Калибровка}
 		Не подавляем МДМ прецессию спина => сравнение CW/CCW частот => калибровка. Как производится калибровка магнитного поля.
+		
 \section*{Заключение}
 На данный момент, в исследовательской программе CERN планируется пауза на десять лет [в связи с анализом данных по Хиггсу?]. В связи с этим рассматривается список задач фундаментальной физики, которыми можно было бы заняться в это время. Среди приоритетных задач этого списка --- поиск ЭДМ. 
 
 Поскольку протонное кольцо можно сделать полностью электростатическим (позволяет величина $G$), в то время как дейтронное принципиально требует магнитные элементы, если ЦЕРН решит заняться поиском ЭДМ, вероятнее всего будет построено протонное кольцо.
 \begin{thebibliography}{0}
+	\bibitem{JEDIatJuelich}
+	Institute for Nuclear Physics, IKP-2: Experimental Hadron Dynamics. \url{http://www.fz-juelich.de/ikp/ikp-2/EN/Forschung/JEDI/_node.html}
+	\bibitem{ERCGrant10}
+	Str\"oher, H. Пресс-конференция. \url{https://www.fz-juelich.de/SharedDocs/Videos/PORTAL/EN/erc/erc-grant-stroeher.html}
+	\bibitem{ERCGrant16}
+	Lenisa, P., Pretz, J., Str\"oher, H. (2016). Storage ring steps up search for electric dipole moments. \textit{CERN Courier}. \url{http://cerncourier.com/cws/article/cern/65816}
+	\bibitem{ERCGrant12}
+	Rathmann, F. Application for an ERC Advanced Grant 2012. \url{http://collaborations.fz-juelich.de/ikp/jedi/public_files/proposals/merged_document.pdf}
 	\bibitem{JEDI}
 	JEDI Collaboration. \url{http://collaborations.fz-juelich.de/ikp/jedi/index.shtml}
 	\bibitem{BNL}
