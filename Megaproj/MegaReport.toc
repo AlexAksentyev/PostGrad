@@ -1,2 +1,0 @@
-\select@language {russian}
-\contentsline {subsection}{\numberline {0.1}\IeC {\CYRZ }\IeC {\cyra }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrm }?}{2}{subsection.0.1}
