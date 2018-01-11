@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2018.1.11)  11 JAN 2018 17:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2018.1.11)  11 JAN 2018 18:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1109,20 +1109,20 @@ LaTeX Warning: Unused global option(s):
 (./LaPlas18_Poster.aux)
 \openout1 = `LaPlas18_Poster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
  ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1216,54 +1216,54 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 122.
+(Font)              <7> on input line 128.
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 1 in font nullfont!
 <MEPhI_logo.png, id=29, 173.89969pt x 213.79875pt>
 File: MEPhI_logo.png Graphic file (type png)
  <use MEPhI_logo.png>
-Package pdftex.def Info: MEPhI_logo.png used on input line 124.
+Package pdftex.def Info: MEPhI_logo.png used on input line 130.
 (pdftex.def)             Requested size: 199.16928pt x 244.87816pt.
 
 <Julich_logo.png, id=30, 426.8748pt x 142.6128pt>
 File: Julich_logo.png Graphic file (type png)
  <use Julich_logo.png>
-Package pdftex.def Info: Julich_logo.png used on input line 124.
+Package pdftex.def Info: Julich_logo.png used on input line 130.
 (pdftex.def)             Requested size: 199.16928pt x 66.54056pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 167.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 173.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <24.88> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 167.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 173.
 
 <Dipole_test.png, id=31, 1214.136pt x 662.7159pt>
 File: Dipole_test.png Graphic file (type png)
  <use Dipole_test.png>
-Package pdftex.def Info: Dipole_test.png used on input line 207.
+Package pdftex.def Info: Dipole_test.png used on input line 213.
 (pdftex.def)             Requested size: 1153.42268pt x 629.57654pt.
 
-Overfull \hbox (75.86945pt too wide) in paragraph at lines 207--207
+Overfull \hbox (75.86945pt too wide) in paragraph at lines 213--213
  [] 
  []
 
 <Wien_test.png, id=33, 1214.136pt x 662.7159pt>
 File: Wien_test.png Graphic file (type png)
  <use Wien_test.png>
-Package pdftex.def Info: Wien_test.png used on input line 207.
+Package pdftex.def Info: Wien_test.png used on input line 213.
 (pdftex.def)             Requested size: 1153.42268pt x 629.57654pt.
 
-Overfull \hbox (75.86945pt too wide) in paragraph at lines 207--207
+Overfull \hbox (75.86945pt too wide) in paragraph at lines 213--213
  [] 
  []
 
 <Quad_test.png, id=34, 1214.136pt x 662.7159pt>
 File: Quad_test.png Graphic file (type png)
  <use Quad_test.png>
-Package pdftex.def Info: Quad_test.png used on input line 207.
+Package pdftex.def Info: Quad_test.png used on input line 213.
 (pdftex.def)             Requested size: 1153.42268pt x 629.57654pt.
  [1
 
@@ -1273,7 +1273,7 @@ h_logo.png> <./Dipole_test.png> <./Wien_test.png> <./Quad_test.png>]
 Here is how much of TeX's memory you used:
  18088 strings out of 494507
  380990 string characters out of 6173545
- 491154 words of memory out of 5000000
+ 490973 words of memory out of 5000000
  20901 multiletter control sequences out of 15000+600000
  22645 words of font info for 51 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
@@ -1291,7 +1291,7 @@ super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb><
 /usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf/fon
 ts/type1/public/cm-super/sfrm3583.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sfti1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti2488.pfb>
-Output written on LaPlas18_Poster.pdf (1 page, 906658 bytes).
+Output written on LaPlas18_Poster.pdf (1 page, 906638 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
