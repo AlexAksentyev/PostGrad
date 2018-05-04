@@ -3,3 +3,6 @@
 *.nav
 *.synctex.gz
 *.toc
+*.log
+*.out
+*.pdf
