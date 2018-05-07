@@ -7,6 +7,7 @@
 \usepackage{setspace}
 \usepackage{multirow}
 \usepackage{threeparttable}
+\usepackage{paralist}
 
 \newcommand{\bld}{\boldsymbol}
 
@@ -40,7 +41,7 @@
 	\begin{equation*}
 	\begin{cases}
 	\sfrac{\td\bld S}{\td t} &=\bld S \times\bld \Omega,\\
-	\bld \Omega &= -\frac em \left[G\bld B + \left(\frac 1 {\gamma^2 - 1} - G\right)\bld \beta \times\bld E + \frac\eta2 \left(\bld E +\bld\beta\times\bld B\right)\right].
+	\bld \Omega &= -\frac em \bkt*{G\bld B + \bkt{\frac 1 {\gamma^2 - 1} - G}\bld \beta \times\bld E + \frac\eta2 \bkt{\bld E +\bld\beta\times\bld B}}.
 	\end{cases}
 	\end{equation*}
 	Здесь, $G = (g-2)/2$ --- аномальный магнитный момент; для дейтрона $G = -0.142$. Подобрав энергию частицы, можно ``заморозить'' направление её спина относительно импульса; это называется условием \emph{замороженного спина}.
@@ -52,7 +53,7 @@
 		\begin{cases}
 		\Delta\nu_s^E &= G_6\Delta\gamma + O(\Delta\gamma),\\
 		\Delta\nu_s^B &= G\Delta\gamma,\\
-		\Delta\gamma(t) &= \Delta\gamma_m\cos(\Omega_s t) + f(\alpha_1, \eta, \gamma)\Delta\gamma_m^2 + g\left(\eta, \beta, \frac{\Delta L}{L}\right)\gamma^2.
+		\Delta\gamma(t) &= \Delta\gamma_m\cos(\Omega_s t) + f(\alpha_1, \eta, \gamma)\Delta\gamma_m^2 + g\bkt{\eta, \beta, \frac{\Delta L}{L}}\gamma^2.
 		\end{cases}
 	\end{equation*}
 	Здесь: $G_6$ есть некоторая функция $(G, \gamma_0)$, $\Delta\gamma_m, \Omega_s$ --- амплитуда и частота синхроторонных колебаний, $\alpha_1$ коэффициент сжатия орбиты , $\eta$ --- слип-фактор, $\Delta L/L$ --- удлинение орбиты засчёт бетатронных колебаний.
@@ -63,14 +64,43 @@
 	\subsection{Структуры FS и QFS колец}
 	Полезный ЭДМ сигнал максимален при соблюдении условия замороженного спина; однако, это условие требует чтобы у частицы было конкретное ``магическое'' значение энергии. Таким образом, это условие не может быть выполнено для всех частиц в пучке. На практике, это условие выполняется только для референсной частицы. Также, в замороженном (FS) кольце требуется использование комбинированных E+B элементов в арках, что усложняет конструкцию ускорителя. По этим причинам, была предложена концепция кольца с квази-замороженным спином (QFS).
 	
-	В QFS кольце не требуется непрерывное выполнение FS условия; . It can also be implemented in two versions: one in which the E- and B-field elements are separated, and another in which the E+B elements are located in the straight sections of the lattice.
+	В QFS кольце не требуется непрерывное выполнение FS условия; спин частицы возвращается в ``замороженное'' положение специальной оптикой через каждые $n$ оборотов. При прецессии спина в горизонтальной плоскости с амплитудой $\Phi_s$, рост ЭДМ-сигнала спадает пропорционально $J_0(\Phi_s) \approx 1 - \bkt{\frac{\Phi_s}{2}}^2$. Таким образом, для дейтронного кольца с $G = -0.142$, при амплитуде прецессии $\Phi_s = \pi\cdot\sfrac{\gamma G}{2n}$, деградация сигнала не превышает нескольких процентов. Также, эта структура может быть выполнена в двух вариантах: 
+	\begin{inparaenum}[1)]
+		\item с искривлёнными прямыми секциями с цилиндрическими электростатическими дефлекторами,
+		\item с прямыми комбинированными E+B дефлекторами в прямых секциях.
+	\end{inparaenum}~\cite{SenichevICAP15}
+
+	\begin{figure}
+		\centering
+		\includegraphics[scale=.5]{edm_img/EB_QFS_Sx_vs_s_1turn}
+		\caption{Эволюция радиальной компоненты спина частиц в QFS структуре на длине одного оборота. Вертикальные пунктирные линии обозначают границы секций ускорителя.}
+	\end{figure}
 	
 	\section{Цели и задачи работы}
+	Целью данной работы является сравнение структур FS и QFS для определения которая из них больше подходит для проведения эксперимента по поиску ЭДМ дейтрона с точностью $10^{-29}$ e$\cdot$cm.
 	
-		\clearpage
+	Для этого предложена следующая программа:
+	\begin{enumerate}
+		\item Изучение эффекта неточности установки E+B элементов (сохраняется сила Лоренца) в FS-структуре на спин-динамику пучка;
+		\item То же самое для квадрупольных магнитов (сила Лоренца не сохраняется);
+		\item Изучение зависимости декогеренции спина от начального распределения пучка по поперечным координатаам и энергии;
+		\item Изучение оптимальной расстановки секступольных магнитов с целью подавления декогеренции и хроматичности;
+		\item Моделирование калибровки магнитного поля в ускорителе по параметру $\gamma_{eff}$ в горизонтальной плоскости для процедуры CW/CCW.
+	\end{enumerate}
+
+	\section{Текущий статус}
+	\subsection{Трекинговый код}
+	Для проведения анализа был написан код на языке Python. В данном коде используется поэлементное интегрирование системы уравнений описанных в~\cite[стр. 39]{Ivanov_thesis}. Наклон элементов имплементирован в двух вариациях:
+	\begin{inparaenum}[1)]
+		\item путём вычисления матрицы 
+	\end{inparaenum}
+	\subsection{Маппинговый код}
+	\subsection{Результаты моделирования}
+	
+	\clearpage
 	\begin{thebibliography}{99}
 		\bibitem{Pretz_presentation}
-		Pretz J, 2012 Measurement of Permanent Electric Dipole Moments of Proton, Deuteron, and Light Nuclei in Storage Rings. Презентация. \url{http://collaborations.fz-juelich.de/ikp/jedi/public_files/usual_event/2012-06-18_J.Pretz_SSP2012.pdf}
+		Pretz J 2012 Measurement of Permanent Electric Dipole Moments of Proton, Deuteron, and Light Nuclei in Storage Rings. Презентация. \url{http://collaborations.fz-juelich.de/ikp/jedi/public_files/usual_event/2012-06-18_J.Pretz_SSP2012.pdf}
 		
 		\bibitem{BNL}
 		Anastassopoulos D et al. 2008 AGS Proposal: Search for a permanent electric dipole moment of the deuteron nucleus at the $10^{-29}$ e$\cdot$cm level. Отчёт BNL. \url{https://www.bnl.gov/edm/files/pdf/deuteron_proposal_080423_final.pdf}
@@ -80,5 +110,11 @@
 		
 		\bibitem{SenichevRuPAC2016}
 		Senichev Y 2016 Search for the Charged Particle Electric Dipole Moments in Storage Rings. Proc. RuPAC2016 (St. Petersburg, Russia).
+
+		\bibitem{SenichevICAP15}
+		Senichev Y 2015 Investigation of lattice for deuteron EDM ring. Proc. ICAP2015 (Shanghai, China).
+		
+		\bibitem{Ivanov_thesis}
+		Иванов А Нелинейное матричное интегрирование спин-орбитальной динамики заряженных частиц. СПбГУ; 2015.
 	\end{thebibliography}
 \end{document}
