@@ -113,14 +113,13 @@
 
 	Результаты моделирования представлены на рисунке~\ref{fig:decoherence_test}. Поскольку средняя величина радиальной компоненты магнитного поля пропорциональна среднему углу наклона E+B элементов, из уравнения Т-БМТ ожидается линейная зависимость роста радиальной компоненты спин-тюна $\Wx$ для референсной частицы. В FS структуре, $\Wy$  референсной частицы должно быть в области нуля.
 
-	\begin{figure}[htb]
+	\begin{figure}[!htbp]
 		\centering
 		\subfloat[Линейный характер зависимости соответствует уравнению Т-БМТ.]{\includegraphics[scale=.45]{edm_img/Wx_dK_reference_vs_tilt_mean}}
 
-		\subfloat[Распределение частот $\Wx$ для максимального среднего угла наклона.\label{fig:decoh_non_chi2}]{\includegraphics[scale=.45]{edm_img/Wx_dK_hist_most_positive_mean_tilt}}
+		\subfloat[Распределение частот $\Wx$ для максимального среднего угла наклона.]{\includegraphics[scale=.45]{edm_img/Wx_dK_hist_most_positive_mean_tilt}}
 	\end{figure}
-
-	\begin{figure}[htb]\ContinuedFloat
+	\begin{figure}[!htbp]\ContinuedFloat
 		\centering
 		\subfloat[Около-нулевое значение $\Wy$ --- результат выполнения FS условия.]{\includegraphics[scale=.45]{edm_img/Wy_dK_reference_vs_tilt_mean}}
 		
@@ -135,21 +134,33 @@
 		\item Три пучка по 10 частиц: $X \sim N(0, 10^{-3}),\, Y \sim N(0, 10^{-3}), \, \Delta K \sim N(0, 10^{-4})$.
 		\item Все частицы инжектированы со спином $\bld S(0) = (0, 0, 1)$.
 		\item Трекинг на 1000 оборотов в идеальной и наклонённой структуре;
-		\item Частоты прецессии определялись через фитирование $(turn, Sx)$  и $(turn, Sy)$.
+		\item Частоты прецессии определялись через фитирование $(turn, Sx)$  и $(turn, Sy)$ (см~\ref{fig:spin_growth}).
 	\end{itemize}
+
+	\setcounter{figure}{2}
+	\begin{figure}[!htbp]
+		\subfloat[Банч с начальным распределением по $x$.]{\includegraphics[scale=.45]{edm_img/Sx_vs_Turn_X_bunch}}
+		
+		\subfloat[Банч с начальным распределением по $y$.]{\includegraphics[scale=.45]{edm_img/Sx_vs_Turn_Y_bunch}}
+	\end{figure}
+	\begin{figure}[!htbp]\ContinuedFloat
+		\subfloat[Банч с начальным распределением по $dK$.]{\includegraphics[scale=.45]{edm_img/Sx_vs_Turn_dK_bunch}}
+		\caption{Рост $S_x$ комоненты спина для трёх банчей. Долгосрочный тренд соответствует искомой частоте прецессии, и поэтому оценивается слопом фитированной прямой (кроме $dK$ банча). \label{fig:spin_growth}}
+	\end{figure}
 
 	Результаты моделирования представлены на рисункe~\ref{fig:cross_plot}.
 
 	Ожидается, что зависимость частоты прецессии в горизонтальной плоскости от начального смещения частицы по $x, y, \Delta K$ от референсных значений (0, 0, 0) --- параболическая функция. Это подтверждается симуляцией для $x, y$, но не для $\Delta K$. Причиной тому является недостаточное количество синхротронных колебаний за 1000 оборотов (28), в связи с чем не происходит подавление декогеренции пучка засчёт синхротронных колебаний, отмеченное в последнем абзаце раздела~\ref{sec:BNL_Proposal}.
 	
 	В использованной модели кольца, отношение частоты синхротронных колебаний к частоте оборота пучка $\Omega_s/\Omega_{rev} \approx 1/35$. По этой причине, для того, чтобы ВЧ-усреднение пучка имело место, необходимое число оборотов порядка 20,000. (Это видно из рисунка~\ref{fig:mean_dK_test}) Очевидно, интегрирование не применимо в таких условиях.
-	\begin{figure}[htb]
+	\setcounter{figure}{3}
+	\begin{figure}[!htbp]
 		\centering
 		\subfloat[Начальное смещение по $x$]{\includegraphics[scale=.45]{edm_img/cross_plot_x}}
 		
 		\subfloat[Начальное смещение по $y$]{\includegraphics[scale=.45]{edm_img/cross_plot_y}}
 	\end{figure}
-	\begin{figure}[htb]\ContinuedFloat
+	\begin{figure}[!htbp]\ContinuedFloat
 		\subfloat[Начальное смещение по  $dK$]{\includegraphics[scale=.45]{edm_img/cross_plot_dK}}
 		\caption{Частота прецессии спина частицы в горизонтальной и вертикальной плоскости. Синий: в идеальной структуре. Красный: в структуре, со случайно наклонёнными E+B элементами. Элементы наклонены вокруг оптической оси на случайный угол из нормального распределения с нулевым средним и стандартным отклонением $10^{-4}$ радиан.\label{fig:cross_plot}}
 	\end{figure}
