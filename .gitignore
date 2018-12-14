@@ -5,5 +5,7 @@
 *.toc
 *.log
 *.out
-*.pdf
+*.fls
+*.fdb_*
+*.bbl
 .DS_Store
