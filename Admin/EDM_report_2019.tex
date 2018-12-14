@@ -1,0 +1,220 @@
+\documentclass{report}
+
+\usepackage{RepSty}
+\usepackage{hyperref}
+
+\usepackage{setspace}
+\usepackage{multirow}
+\usepackage{threeparttable}
+\usepackage{paralist}
+
+\usepackage[numbers]{natbib}
+
+\newcommand{\bld}{\boldsymbol}
+\newcommand{\Wx}{\Omega_x}
+\newcommand{\Wy}{\Omega_y}
+\newcommand{\Dt}{\Delta t}
+
+\newcommand{\Artem}{/home/alexa/REPOS/COSYINF/img/Artem}
+\newcommand{\multisext}{\Artem/multisext_test}
+\newcommand{\compare}{\Artem/spin_vs_polarization_fit_comp}
+\newcommand{\decoh}{\Artem/decoherence_frequency_dependence}
+
+\begin{document}
+\singlespacing
+\input{Rep_title_EDM2019.tex}
+
+\tableofcontents 
+\pagebreak
+
+\onehalfspacing
+
+\chapter{Постановка целей и задач исследования}
+
+\section{Цели, задачи, перспективы исследования}\label{sec:research_program}
+
+Целью исследования является сравнение структур с Замороженным и Квази-замороженным спином, для определения которая из них больше подходит для проведения эксперимента по поиску ЭДМ дейтрона с точностью $10^{-29}$ e$\cdot$cm.
+
+Для достижения поставленной цели предложена следующая программа:
+\begin{enumerate}
+\item Анализ требований к эксперименту по поиску дейтронного ЭДМ методом определения частоты прецессии спина, обоснованных статистическими соображениями;
+\item Изучение влияния неточности установки E+B спин-ротаторов на систематическую ошибку определения частоты ЭДМ прецессии (фальш-сигнал);
+\item Изучение явления деполяризации пучка засчёт эффекта декогеренции спин-тюна, а также его подавление при помощи секступольных полей в неидеальной структуре;
+\item Изучение влияния нарушения спин-прецессии на конечную статистику в частотном методе определения ЭДМ;
+\item Моделирование процедуры калибровки ведущего магнитного поля кольца для его точного обращения при обратной инжекции пучка в процедуре CW/CCW.
+\end{enumerate}
+
+В перспективе предполагается использование предложенного метода поиска ЭДМ элементарной частицы в частотной области, а также разработанной в рамках данной работы методологии анализа колец, при конструировании кольца по поиску дейтронного ЭДМ на комплексе НИКА, Дубна.
+
+\section{Актуальность и научная новизна работы}
+
+В данной работе исследуется возможность измерения дейтронного ЭДМ в накопительном кольце, построенном на основе принципа Замороженного (или Квази-замороженного) спина, методом Frequency Domain.
+
+Поиск ЭДМ в невырожденных системах был инициирован Эдвардом Пёрселлом и Норманом Рэмзи более 50 лет назад, для нейтрона. С тех пор было проведено множество всё более чувствительных экспериментов на нейтронах, атомах, и молекулах, и тем не менее, ЭДМ пока ещё не был обнаружен. На данный момент, верхний предел ЭДМ нейтрона оценивается на уровне $<3\cdot 10^{-26}$ e$\cdot$cm, протона --- $<8\cdot 10^{-25}$ e$\cdot$cm.~\cite{Pretz_presentation}
+
+В 2008 году коллаборацией в Брукхейвенской Национальной Лаборатории (BNL, США) был предложен эксперимент по измерению ЭДМ дейтрона, основанный на использовании эффекта замороженного спина в магнитном накопительном кольце.~\cite{BNL} 
+
+В 2015 году, коллаборацией Storage Ring EDM Collaboration, был предложен эксперимент по поиску протонного ЭДМ в полностью электрическом накопительном кольце.~\cite{Proton_EDM}
+
+На данный момент, коллаборацией JEDI (Исследовательский центр ``Юлих,'' Германия) ведётся разработка структуры накопительного кольца для проведения предварительного эксперимента по измерению дейтронного ЭДМ на полностью магнитном синхротроне COSY. В рамках исследований, проводимых коллаборацией, была выдвинута концепция квази-замороженного кольца. Также, профессором Ю. Сеничевым была предложена методология поиска ЭДМ в частотной области (так называемый Frequency Domain Method).
+
+Frequency Domain Method базируется на концепциях замороженного спина, предложенного в BNL, и Spin Wheel, предложенного профессором И. Коопом (Новосибирский Государственный Университет). Однако ни тот, ни другой метод сам по себе не решают проблему неточности установки элементов ускорителя, и возникающий в связи с этим фальш-сигнал.  На сегодняшний день, Frequency Domain --- это единственный известный, практически-реализуемый метод, решающий данную проблему.
+
+\section{Структура работы}
+Структура работы следует пунктам программы обозначенной в разделе~\ref{sec:research_program}
+
+\chapter{Характеристика современного состояния изучаемой проблемы}
+Предварительный библиографический список по теме диссертации.
+Диссертация Еремея Валетова.~\citep[p.~235]{Eremey:Thesis}
+Диссертация Андрея Иванова.
+Диссертация Станислава Чекменева.
+AGS Proposal (deuteron).
+Senichev: Investigation of lattice for deuteron EDM ring.
+Senichev: Spin tune decoherence effects in electro- and magnetostatic structures.
+Senichev: Search for the charged particle electric dipole moments in storage rings.
+Senichev: Frequency domain method of the search for the deuteron electric dipole moment in a storage ring with imperfections.
+JEDI: Spin Tune mapping.
+
+
+\chapter{Результаты разработки основных направлений теоретической концепции (FS и QFS колец)}
+\section{Статистический анализ требований к эксперименту по поиску ЭДМ}
+
+\section{Систематическая ошибка в эксперименте, связанная с неточностью установки магнитов}
+
+\section{Декогеренция спина в идеальном накопительном кольце}
+\subsection{Требования ко времени когеренции пучка}
+1000 секунд.
+\subsection{Происхождение декогеренции}
+\subsubsection{Принцип автофазировки}
+такой вот принцип.
+\subsubsection{Удлинение орбиты}
+из-за принципа автофазировки.
+\subsubsection{Использование ВЧ резонатора для подавления декогеренции}
+ВЧ всё усредняет.
+\subsubsection{Удлинение орбиты засчёт бетатронных колебаний}
+потому что не на референсной орбите.
+\subsubsection{Сдвиг равновесного значения импульса частицы}
+дальше бежать = быстрее бежать.
+\subsubsection{Понятие эффективного Лоренц-фактора}
+которое всё объясняет.
+
+\subsection{Подавление декогеренции с помощью секступольных полей}
+\subsubsection{Влияние на коэффициент сжатия орбиты}
+существует.
+\subsubsection{Влияние на длину орбиты}
+существует.
+\subsection{Оптимальная расстановка секступолей}
+там где максимумы функций Твисса.
+
+\section{Смена полярности ведущего магнитного поля}
+большая проблема.
+
+\chapter{Результаты численного моделирования спин-орбитальной динамики частиц в FS (и QFS) кольцах}
+
+\section{Фальш-сигнал, связанный с неточностью установки магнитов}
+линейно зависит от среднего значения наклона элементов, и не зависит от конкретной последовательности наклонов.
+\section{Декогеренция}
+
+\subsection{Симуляция эффекта подавления декогеренции спина в вертикальной плоскости при помощи секступолей}
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{\textwidth}
+    \includegraphics[width=\linewidth]{\multisext/ny_vs_offset}
+    \caption{Vertical component of the SPA $\bar n_y$.\label{fig:DECOH_full_ny}}
+  \end{subfigure}
+
+  \begin{subfigure}[b]{\textwidth}
+    \includegraphics[width=\linewidth]{\multisext/ny_vs_offset_zoom}
+    \caption{Zoom of Figure~\ref{fig:DECOH_full_ny}. Vertical component $\bar n_y$ (and $\bar n_x$) is parabolic around the reference orbit for the optimal setting, unlike $nu_s$, which is linear.}
+  \end{subfigure}
+  
+  \begin{subfigure}[b]{\textwidth}
+    \includegraphics[width=\linewidth]{\multisext/spin_tune_vs_offset}
+    \caption{Spin tune $\nu_s$.}
+  \end{subfigure}
+  \caption{DECOH data poltted against the beam offset in the vertical direction for each sextupole setting.}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{\textwidth}
+    \includegraphics[width=\linewidth]{\multisext/FreqY_vs_offset}
+    \caption{Full range.\label{fig:FreqY_vs_offset}}
+  \end{subfigure}
+
+  \begin{subfigure}[b]{\textwidth}
+    \includegraphics[width=\linewidth]{\multisext/FreqY_vs_offset_zoom}
+    \caption{Zoom of Figure~\ref{fig:FreqY_vs_offset}. Vertical polarization depends on the beam offset linearly, like spin tune $\nu_s$, and unlike $\bar n_y$.}
+  \end{subfigure}
+  \caption{Vertical polarization precession frequency estimate vs beam offset for the optimal sextupole setting (orange), and two settings at the opposite range of the swept gradient space.}
+\end{figure}
+
+\subsection{Исследование зависимости оценки частоты прецессии поляризации банча от спин тюна и прецессии оси стабильного спина}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\linewidth]{\decoh/ny_vs_turn}
+  \caption{Vertical component of $\bar n$ for particles with offsets, resp.: [1.02749, 1.02937, 1.02840] mm. We obserwe rapid oscillations about some average level. This average level will change parabolically with the particle's vertical offset (see Figure~\ref{fig:mean_tune_axis} below). The rapid oscillations are due to betatron motion (see Figures~\ref{fig:tune_axis_position_y},~\ref{fig:tune_axis_position_x}).\label{fig:ny_vs_turn}}
+\end{figure}
+
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{\textwidth}
+    \includegraphics[width=\linewidth]{\decoh/ny_vs_y}
+    \caption{Vertical $\bar n$ component vs the particle vertical position.}
+  \end{subfigure}
+
+  \begin{subfigure}[b]{\textwidth}
+    \includegraphics[width=\linewidth]{\decoh/spin_tune_vs_y}
+    \caption{Spin tune vs the particle vertical position.}
+  \end{subfigure}
+  \caption{Particle precession frequency vs its vertical offset. The plots exhibit non-functional dependence pf the parameters on the vertical particle position as a result of their dependence on the radial position, which also oscillates at a small amplitude (see Figure~\ref{fig:tune_axis_position_x}). \label{fig:tune_axis_position_y}}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{\textwidth}
+    \includegraphics[width=\linewidth]{\decoh/ny_vs_x}
+    \caption{Vertical $\bar n$ component vs the particle horizontal position.}
+  \end{subfigure}
+
+  \begin{subfigure}[b]{\textwidth}
+    \includegraphics[width=\linewidth]{\decoh/spin_tune_vs_x}
+    \caption{Spin tune vs the particle horizontal position.}
+  \end{subfigure}
+  \caption{Particle precession frequency vs its horizontal offset.\label{fig:tune_axis_position_x}}
+\end{figure}
+
+
+\section{Калибровка величины ведущего магнитного поля с помощью частоты прецессии поляризации пучка в горизонтальной плоскости}
+
+\chapter{Результаты обобщения и систематизации результатов проведённых исследований}
+\section{Связь между спин тюном и осью стабильного спина}
+Концепция эффективного Лоренц-фактора предполагает равенство скоростей вращения спинов частиц с равными эффективными Лоренц-факторами вокруг их собственных осей стабильного спина. При этом известно, что ось стабильного спина частицы, участвующей в бетатронном движении, меняет свою ориентацию в пространстве от оборота к обороту. Последний факт послужил мотивацией проведения исследования влияния нарушения спин-прецессии на конечную статистику.
+
+Была обнаружена систематическая структура оценки ошибки измерения, что свидетельствует о несоответствии используемой при фитировании данных модели функции-генератору данных. Также было сделано связанное с предыдущим наблюдение, что оценка частоты колебаний вертикальной компоненты поляризации пучка зависит от его вертикального сдвига по отношению к референсной орбите. Было выдвинуто две гипотезы о причине данного наблюдения:
+\begin{inparaenum}[\itshape i\upshape)]
+\item систематичность ошибки есть следствие различия скоростей прецессии частиц в пучке, и не связано с различием направлений их осей прецессий;
+\item структура ошибки есть прямое следствие прецессии осей стабильного спина частиц в пучке.
+\end{inparaenum}
+
+Первая гипотеза основана на том факте, что, исходя из решения уравнения Т-БМТ, частота колебаний компоненты спина зависит только от величины вектора частоты, но не его направления; от последнего зависит только амплитуда колебаний. Соответственно, при выравнивании величины спин тюна при помощи секступольных полей, этот эффект должен спадать.
+
+Вторая гипотеза основана на том факте, что статистическая оценка частоты не тождествена самой частоте колебаний компоненты, и подвержена влиянию модуляции амплитуды колебаний, вызываемой прецессией оси стабильного спина. К тому же, вариация компонент оси стабильного спина по частицам в анализируемой симуляции на много (8) порядков превосходит вариацию спин тюна, и потому вторая гипотеза является более вероятным объяснением наблюдаемого эффекта.
+
+В процессе анализа данных было выяснено следующее:
+\begin{itemize}
+\item 
+\item
+\end{itemize}
+
+\chapter{Оценка достоверности и достаточности данных исследования}
+
+\chapter{Заключения и выводы}
+
+\bibliography{/home/alexa/REPOS/EDM/Reports/PhD/PhDRefs}
+\bibliographystyle{vancouver}
+
+\end{document}
