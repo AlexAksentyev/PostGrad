@@ -36,11 +36,16 @@
 \newcommand{\lamb}{\lambda_b}
 \newcommand{\lamd}{\lambda_d}
 
-\newcommand{\home}{/Users/alexaksentyev}
+\newcommand{\home}{\string~}
 \newcommand{\Artem}{\home/REPOS/COSYINF/img/Artem}
 \newcommand{\multisext}{\Artem/multisext_test}
 \newcommand{\compare}{\Artem/spin_vs_polarization_fit_comp}
 \newcommand{\decoh}{\Artem/decoherence_frequency_dependence}
+
+\newcommand{\y}{\mathbf{y}}
+
+\usepgfplotslibrary{fillbetween}
+
 
 \begin{document}
 \singlespacing
@@ -293,8 +298,184 @@ $\w_a$.~\citep[стр.~18]{BNL:Deuteron2008} Последнее обстояте
 \section{Статистический анализ требований к эксперименту по поиску
   ЭДМ}
 
-Вводные рассуждения по поводу измерения поляризации, проблемы
-деполяризации пучка, и т.п.
+Все рассмотренные выше концепции измерения ЭДМ элементарных частиц основаны на наблюдении эволюции поляризации пучка. Двумя важными обстоятельствами поляриметрии являются:
+\begin{inparaenum}[\itshape a\upshape)]
+\item уменьшение числа частиц в пучке при каждом измерении поляризации, и
+\item деполяризация.
+\end{inparaenum}
+
+В связи с первым обстоятельством возникает желание использовать каждое измерение поляризации максимально эффективно. В выборке измеренний сигнала, максимальной информативностью обладают точки, измеренные в моменты, когда сигнал имел наибольшую скорость изменения (см. раздел~\ref{sec:StatPrelim} ниже). По этой причине возникла идея измерять поляризацию пучка только в моменты пересечения ею нуля (модулированная схема измерения): таким образом увеличивается вемя жизни пучка, а потеря частиц происходит наиболее выгодным образом.
+
+Фактор деполяризации в свою очередь ограничивает наши возможности по продлению времени жизни пучка, а следовательно накладывает ограничения и на длительность измерительного цикла, возможную точность единичной оценки частоты, и длительность полного времени измерения ЭДМ.
+
+В этом разделе мы попытаемся определить адекватную длительность измерительного цикла, точность определения единичной оценки частоты сигнала за цикл, а такжке оценить потенциал применения модулированной схемы измерения поляризации.
+
+\subsection{Предварительный анализ}\label{sec:StatPrelim}
+
+Вероятность наблюдения величины $y_i \equiv y(t_i)$, при ожидании $\mu(t_i)$ и нормальном распределении ошибки:
+\begin{align*}
+  f(y_i|\pars) &= \frac{1}{\sqrt{2\pi\nu}}\exp\bkt{-\frac12\frac{(y_i - \mu(t_i))^2}{\nu}}, \\
+  \pars 		  &= (\nu,\omega,\phi),\\
+  \mu(t_i) 	  &= N_0\bkt{1 + P\sin(\omega t_i + \phi)}.
+\end{align*}
+
+Вероятность наблюдения набора измерений $\y = (y_1,\dots, y_K)$, предполагая что они все происходят из одного и того же распределения, это произведение вероятностей, взятое как функция параметров:
+\begin{align*}
+	\mathcal{L}(\pars|\y) &= \prod_i f(y_i|\pars),
+\shortintertext{и логарифм вероятности}
+	\ell(\pars|\y) &= -\frac{K}{2}\log2\pi - \frac{K}{2}\log\nu - \frac{1}{2\nu}\sum_i\epsilon_i^2,
+	~ \epsilon_i = y_i- \mu(t_i).
+\end{align*}
+Обычными предполажениями на ошибку являются равенство нулю её ожидания, и строгая экзогенность:
+\begin{align*}
+	\XpctO{\epsilon_i} &= \XpctO{t_i\epsilon_i} = 0,
+\intertext{связь между производными ождидания:}
+	\mu'_\phi	&= N_0P\cos(\omega t + \phi), \\
+	\mu'_\omega &= t\cdot\mu'_\phi, \epsilon'_\xi = -\mu'_\xi.
+\end{align*}
+
+%% Производные логарифма вероятности:
+%% \begin{align*}
+%% \ell'_\nu 		&= -\frac{K}{2\nu} + \frac{1}{2\nu^2}\sum_i\epsilon_i^2;  & \\
+%% \ell'_\omega 	&= \frac1\nu\sum_i\mupp t_i\epsilon_i;  & \\
+%% \ell'_\phi		&= \frac1\nu \sum_i \mupp\epsilon_i; & \\
+%% %
+%% \ell''_{\nu^2}		&= \frac{K}{2\nu^2} - \frac{1}{\nu^3}\sum_i\epsilon_i^2, 
+%% 	&-\XpctO{\ell''_{\nu^2}} = \frac{K}{2\nu^2} - \frac{1}{\nu^3}\sum_i\nu = \frac{K}{2\nu^2};\\
+%% \ell''_{\nu\omega}	&= -\frac{1}{\nu^2}\sum_i\mupp t_i\epsilon_i, 
+%% 	&-\XpctO{\ell''_{\nu\omega}} = \frac{1}{\nu^2}\sum_i\mupp\XpctO{t_i\epsilon_i} = 0;\\
+%% \ell''_{\nu\phi}	&= -\frac{1}{\nu^2}\sum_i\mupp \epsilon_i, 
+%% 	&-\XpctO{\ell''_{\nu\phi}} = \frac{1}{\nu^2}\sum_i\mupp\XpctO{\epsilon_i} = 0; \\
+%% \ell''_{\phi^2}		&= \frac1\nu\sum_i\bkt{\mudpp \epsilon_i - \bkt{\mupp}^2}, 
+%% 	&-\XpctO{\ell''_{\phi^2}} = \frac1\nu\sum_i\bkt{\bkt{\mupp}^2 - \mudpp\XpctO{\epsilon_i}} = \frac1\nu\sum_i\bkt{\mupp}^2;\\
+%% \ell''_{\phi\omega}	&= \frac1\nu\sum_i\bkt{\mudpp t_i\epsilon_i - \bkt{\mupp}^2t_i}, 
+%% 	&-\XpctO{\ell''_{\phi\omega}} = \frac1\nu\sum_i\bkt{t_i\bkt{\mupp}^2 - \mudpp\XpctO{t_i\epsilon_i}} = \frac1\nu\sum_i t_i\bkt{\mupp}^2;\\
+%% \ell''_{\omega^2}	&= \frac1\nu\sum_i\bkt{\mudpp t_i^2\epsilon_i - \bkt{\mupp t_i}^2},
+%% 	& -\XpctO{\ell''_{\omega^2}} = \frac1\nu\sum_i\bkt{\bkt{t_i\mupp}^2 - \mudpp\XpctO{t_i^2\epsilon_i}} = \frac1\nu\sum_i\bkt{t_i\mupp}^2.
+%% \end{align*}
+
+\subsubsection{Дисперсия оценки частоты}
+После вычисления производных (и их ожиданий) логирифма вероятности, получим матрицу Фишера: 
+\[
+	\Fisher = \begin{pmatrix}
+	\sfrac{K}{2\nu} & 0 								& 0 \\
+	0 				& \sfrac1\nu\sum\bkt{t_i\mupp}^2	& \sfrac1\nu\sum t_i\bkt{\mupp}^2 \\
+	0				& \sfrac1\nu\sum t_i\bkt{\mupp}^2	&\sfrac1\nu\sum\bkt{\mupp}^2
+	\end{pmatrix}.
+\]
+Определитель матрицы
+\newcommand{\STM}{\Omega}
+\[
+|\Fisher| = \frac{K}{2\nu^3}\underbrace{\bkt{\sum\bkt{t_i\mupp}^2\sum\bkt{\mupp}^2 - \bkt{\sum t_i\bkt{\mupp}^2}^2}}_{\STM}.
+\]
+Матрица вариации-ковариации
+\[
+vcov = \begin{pmatrix}
+  \sfrac{2\nu}{K}& 0									& 0				\\
+  0				&\nu\frac{\sum\bkt{\mupp}^2}{\STM}		&\nu\frac{\sum t_i\bkt{\mupp}^2}{\STM}\\
+  0				&\nu\frac{\sum t_i\bkt{\mupp}^2}{\STM}	&\nu\frac{\sum\bkt{t_i\mupp}^2}{\STM}
+\end{pmatrix}.
+\]
+
+Дисперсия оценки частоты
+\begin{equation}\label{eq:Var1}
+  \var{\hat{\omega}} = \nu\frac{\sum\bkt{\mupp}^2}{\sum\bkt{t_i\mupp}^2\sum\bkt{\mupp}^2 - \bkt{\sum t_i\bkt{\mupp}^2}^2}.
+\end{equation}
+
+\paragraph{Проверка.} Положим $\mu(t_i) = \phi + \omega t_i$. В этом случае $\mupp = 1$, $\mu'_\omega(t_i) = t_i = t_i\cdot\mupp$, и определитель матрицы Фишера упрощается:
+\begin{align*}
+  |\Fisher| &= \frac{K}{2\nu^4}\bkt{K\sum_i t_i^2 - \bkt{\sum t_i}^2} \\
+  &= \frac{K^3}{2\nu^4}\bkt{\frac1K\sum t_i^2 - \avg{t}^2} \\
+  &= \frac{K}{2\nu^4}\cdot\underbrace{K\sum\bkt{t_i - \avg{t}}^2}_{\STM}
+\end{align*}
+\newcommand{\SSX}{\sum\bkt{t_i - \avg{t}}^2}
+а матрица вариации-ковариации становится
+\[
+vcov = \begin{pmatrix}
+  2\sfrac{\nu^2}{K}& 0									& 0				\\
+  0				&\frac{\nu}{\SSX}		&\nu\frac{\sum t_i}{K\SSX}\\
+  0				&\nu\frac{\sum t_i}{K\SSX}	&\nu\frac{\sum t_i^2}{K\SSX}
+\end{pmatrix},
+\]
+с хорошо известным выражением дисперсии оценки наклона прямой
+\[
+\var{\hat\omega} = \frac{\nu}{\SSX}.
+\]
+
+Обозначим $\bkt{\mupp}^2 = (N_0P)^2\cos^2(\omega t_i + \phi) \equiv x_i$. Уравнение~\eqref{eq:Var1} может быть записано в виде:
+\begin{align}
+  \var{\hat\omega} &= \frac{\nu}{\sum_j x_j \bkt{\sum_i t_i^2 \frac{x_i}{\sum_j x_j} - \bkt{\sum_i t_i \frac{x_i}{\sum_j x_j}}^2}} \notag\\
+  &= \frac{\nu}{\sum_j x_j \sum_i w_i\bkt{t_i - \avg{t}[w]}^2} \notag\\
+  &= \frac{\nu}{\sum_j x_j \cdot\var[w]{t}}. \label{eq:Var2}
+\end{align}
+
+%% \newcommand{\M}{\underline{\mathrm{M}}}
+%% \newcommand{\T}{\underline{\mathrm{T}}}
+%% \newcommand{\diag}[1]{\mathcal{D}_{#1}}
+%% \newcommand{\diagM}{\diag{\mu}}
+%% В матричном виде, дисперсия оценки частоты может быть записана как
+%% \begin{align*}
+%%   \var{\hat\omega} &= \frac{\nu}{\bkt{\T'\diagM^2\T} - \bkt{\T'\diagM\M}^2/\bkt{\M'\M}}, 
+%%   \shortintertext{with}
+%%   \T &= \bkt{t_0,\dots, t_{K-1}}', ~ \M = \bkt{\mupp*(t_0),\dots,\mupp*(t_{K-1})}', \\
+%%   \diagM &= \begin{pmatrix}
+%%     \mupp*(t_0) & 0				& \cdots & 0 \\
+%%     0			& \mupp*(t_1)	& \cdots & 0 \\
+%%     \vdots		& \cdots		&\ddots	 & \vdots \\
+%%     0			& 0				&\cdots  & \mupp*(t_{K-1})
+%%   \end{pmatrix}.
+%% \end{align*}
+
+\subsubsection{Модуляция выборки}
+Предположим мы запишем матрицу Фишера в виде суммы
+\begin{equation}\label{eq:FisherSum}
+  \Fisher = \sum_i \Fisher[i]; 
+  ~\Fisher[i] = \frac1\nu\begin{pmatrix}
+  \bkt{\sqrt2\cdot\mupp}^{-2} & 0 		& 0 \\
+  0		 & t_i^2 	& t_i \\
+  0		 &	t_i	    & 1
+  \end{pmatrix}\cdot\bkt{\mupp}^2.
+\end{equation}
+
+$\Fisher[i] = -\XpctO{\frac{\partial^2}{\partial\pars^2}\log f(y_i|\pars)\vert_{\pars=\pars_0}}$ может быть интерпретировано как информация о параметре, заложенная в измерение $y_i$.
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{.5\textwidth}
+    \begin{tikzpicture}
+      \draw[->] (-1.5,0) -- (1.5,0) node[right] {$\mupp$};
+      \draw[->] (0,-.5) -- (0, 2.3) node[above] {$I_i(\pars_0)$};
+      \draw[scale=1,domain=-1.5:1.5,smooth,variable=\x,red] plot ({\x},{\x*\x});
+    \end{tikzpicture}
+    \caption{Информация Фишера точки зависит параболически от производной сигнала.}
+  \end{subfigure}
+  
+  \begin{subfigure}{.5\textwidth}
+    \begin{tikzpicture}
+      \begin{axis}[axis lines=center, xlabel=$t$, domain=-.5:2*pi, legend pos=outer north east]
+	\addplot[color=blue, name path=signal, domain=-.1:2*pi,samples=50] {sin(deg(x))}; \addlegendentry{signal}
+	\addplot[color=red, samples=50] {cos(deg(x))^2}; \addlegendentry{$\bkt{\mupp}^2$}
+	\addplot[mark=none,dashed, domain=0:2*pi]{.5};
+	\draw[dashed] (axis cs:.785,0) -- (axis cs:.785,{sin(deg(.785))});
+	\draw[dashed] (axis cs:2.36,0) -- (axis cs:2.36,{sin(deg(2.36))});
+	\draw[dashed] (axis cs:3.93,0) -- (axis cs:3.93,{sin(deg(3.93))});
+	\draw[dashed] (axis cs:5.5,0) -- (axis cs:5.5,{sin(deg(5.5))});
+	\path[name path=axis] (axis cs:0,0) -- (axis cs:2*pi,0);
+	\addplot[fill=blue, opacity=.05] fill between [of=signal and axis, soft clip={domain=0:.785}];
+	\addplot[fill=blue, opacity=.05] fill between [of=signal and axis, soft clip={domain=2.36:3.93}];
+	\addplot[fill=blue, opacity=.05] fill between [of=signal and axis, soft clip={domain=5.5:2*pi}];
+      \end{axis}     
+    \end{tikzpicture}
+    \caption{Точки в заштрихованных областях более информативны.}
+  \end{subfigure}
+  \caption{Зависимость информации Фишера измерения синусоидального сигнала от его производной.}
+\end{figure}
+
+Если дать каждой точке вес, пропорциональный её информации Фишера, т.е. $w_i = \cos^2(\omega t_i + \phi)$, вес области с $\bkt{\mupp}^2 \geq\sfrac12$ больше чем у эквивалентной области с $\bkt{\mupp}^2 < \sfrac12$ на множитель
+\begin{align*}
+  \int_{t_0}^{t_1}\cos^2(\omega t + \phi)\td t = \frac1\omega\int_{\omega t_0}^{\omega t_1} \cos^2\theta\td\theta = \frac{\Delta t}{2} + \frac{1}{2\omega}\sin\omega\Delta t\cos\omega\Sigma t \approx 1.9.
+\end{align*}
+
+То есть, если бы все точки находились в заштрихованной области, выборка была бы информативнее примерно в два раза.
 
 \subsection{Модель частоты событий на поляриметре}
 В наших рассуждениях мы предположили следующую простую модель
@@ -357,7 +538,7 @@ N_0(t) & = p\cdot\int_{-\dtc/2}^{+\dtc/2} I(t+\tau)\td\tau \notag               
 \end{equation}
 
 В связи с уменьшением числа частиц в пучке, измерение асимметрии
-сечения гетероскедастично. Из~\citep[стр.~18]{Eversmann}, мы приняли
+сечения гетероскедастично. Из~\citep[стр.~18]{Eversmann:Thesis}, мы приняли
 модель гетероскедастичности
 \begin{equation}\label{eq:AsymHtsk}
 	\SD{\Asym}^2(t) \approx \frac{1}{2N_0(t)}.
@@ -394,7 +575,7 @@ $\var[w]{t}$ --- мера длительности его измерения. М
 жизни поляризации. Можно выразить $\sum_{j=1}^{\Nmnd} x_{js} = \Nmnd
 \cdot x_{0s}$, для некоторого среднего значения $x_{0s}$ в данном узле
 $s$, где $\Nmnd$ измерений асимметрии на узле. Будем называть
-\emph{временем сжатия} (обозначение $\dtnd$) период времени вокруг узла
+\emph{временем сжатия}\footnote{Поскольку, не изменяя количества измерений за единицу времени, они все ``сжимаются'' вокруг узла сигнала.} (обозначение $\dtnd$) период времени вокруг узла
 сигнала, в течении которого производятся измерения. Значение суммы
 $\sum_{j=1}^{\Nmnd} x_{js}$ спадает экспоненциально из-за
 деполяризации, так что $x_{0s} = x_{01}\exp{(\lamd\cdot \frac{(s-1)\cdot\pi}{\omega})}$. Тогда:
@@ -838,10 +1019,10 @@ f\cdot t + \phi)$, оцениваются все три параметра $(\ha
   \centering
   \begin{subfigure}[b]{\textwidth}
     \includegraphics[width=\linewidth]{\multisext/spin_tune_vs_offset}
-    \caption{Спин-тюн $\nu_s$.}
+    \caption{Спин-тюн $\nu_s$.\label{fig:SpinTune_vs_Y0_GSY}}
   \end{subfigure}
   \caption{Данные DECOH построенные для каждого значения градиента GSY
-    в зависимости от вертикального оффсета пучка.}
+    в зависимости от вертикального оффсета пучка.\label{fig:DECOH_GSY_variation}}
 \end{figure}
 
 \begin{figure}[H]
@@ -950,6 +1131,8 @@ f\cdot t + \phi)$, оцениваются все три параметра $(\ha
 
 На настоящий момент автор не понимает причину линейности связи между средними значениями спин-тюна и направления оси стабильного спина.  В следствии этого не ясен механизм выравнивания направления осей прецессии спинов частиц засчёт использования секступольных полей.
 
+Также пока не ясна причина присутствия линейной части в разложении Тейлора функции спин-тюна (см. Рисунок~\ref{fig:SpinTune_vs_Y0_GSY}). Если это не артефакт вычислений, а физически-обоснованный эффект, мы имеем проблему с подавлением декогеренции, поскольку линейная часть не чувствительна к секступольным полям, и при этом создаёт вариацию спин-тюнов частиц сравнимую с параболическим эффектом.
+
 Также под сомнениями стоит возможность процедуры калибровки магнитного поля путём измерения частоты прецессии поляризации пучка в горизонтальной плоскости. Причина сомнений лежит в необходимости отведения энергии пучка от ``замороженного'' значения, и соответствующее изменение величины ведущего поля. Несмотря на возможность достаточно точной подстройки величины поля при помощи калибровки эффективного Лоренц-фактора на ``незамороженной'' энергии, при возвращении на ``замороженную'' энергию точность необходимо будет теряться.  Этой проблемы можно избежать, если производить калибровку поля не меняя энергию пучка, но тогда возникнет состояние ``замороженности'' спина во всех плоскостях, которое считается нестабильным.
 
 
@@ -958,6 +1141,11 @@ f\cdot t + \phi)$, оцениваются все три параметра $(\ha
 
 Изучено спин-орбитальное движение в кольцах, построенных на принципах ``замороженного'' и ``квази-замороженного'' спина. Проведено моделирование декогеренции прецессии спина, изучены методы её подавления с помощью мультипольных полей. Оценена систематическая ошибка методов измерения ЭДМ частиц в накопительном кольце, связанная с неточностью установки оптических элементов ускорителя. Изучен способ улучшения статистической погрешности оценки частоты колебаний вертикальной компоненты поляризации путём применения схемы временного модулирования измерений поляриметрии. 
 
+Выводы: Показана возможность улучшения оценки частоты прецессии спина засчёт применения модулированной схемы измерения поляризации.
+
+Показана невозможность использования оригинального BNL FS метода измерения ЭДМ дейтрона в накопительном кольце с реалистичной (ожидание среднего угла наклона элементов на уровне $10^{-4}$ радиан) ошибкой установки элементов в связи с величиной угловой скорости МДМ прецессии (см. Рисунок~\ref{fig:Linearity_test_shifting_gauss}).
+
+Показана возможность подавления параболической зависимости спин-тюна (и компонент оси прецессии спина) от смещения частицы от референсной орбиты (см. Рисунок~\ref{fig:DECOH_GSY_variation}). 
 
 \bibliography{\home/REPOS/EDM/Reports/PhD/PhDRefs}
 \bibliographystyle{vancouver}
