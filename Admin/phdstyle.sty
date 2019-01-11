@@ -24,7 +24,9 @@
 
 \newcommand{\W}{\Omega}
 \newcommand{\w}{\omega}
-\newcommand{\ddt}[1]{\frac{\mathrm{d} {#1}}{\mathrm{d} t}}
+
+\newcommand{\rd}{\mathrm{d}}
+\newcommand{\ddt}[1]{\frac{\rd {#1}}{\rd t}}
 
 \DeclareDocumentCommand{\pddx}{mO{t}O{}}{\frac{\partial^{#3} {#1}}{\partial {#2}^{#3}}}
 \DeclareDocumentCommand{\bkt}{sm}{\IfBooleanTF{#1}{\left[ #2 \right]}{\left(#2\right)}}
