@@ -1,4 +1,4 @@
-OBJECTS = EDM_report_2019 EDM_report_2018
+OBJECTS = EDM_report_2019 EDM_report_2018 EDM_praktika_2019
 TARGETS = $(addsuffix .pdf, $(OBJECTS))
 SOURCES = $(addsuffix .tex, $(OBJECTS))
 
