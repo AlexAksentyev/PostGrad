@@ -1,6 +1,16 @@
 \ProvidesPackage{phdstyle}
 
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amsfonts}
 \usepackage{xparse}
+\usepackage{xfrac}
+\usepackage{paralist}
+\usepackage{cleveref}
+\usepackage{subcaption}
+\usepackage{multirow}
 
 \let\oldvec\vec
 \renewcommand{\vec}{\boldsymbol}
@@ -15,9 +25,7 @@
 
 \newcommand{\W}{\Omega}
 \newcommand{\w}{\omega}
-
-\newcommand{\rd}{\mathrm{d}}
-\newcommand{\ddt}[1]{\frac{\rd {#1}}{\rd t}}
+\newcommand{\ddt}[1]{\frac{\mathrm{d} {#1}}{\mathrm{d} t}}
 
 \DeclareDocumentCommand{\pddx}{mO{t}O{}}{\frac{\partial^{#3} {#1}}{\partial {#2}^{#3}}}
 \DeclareDocumentCommand{\bkt}{sm}{\IfBooleanTF{#1}{\left[ #2 \right]}{\left(#2\right)}}

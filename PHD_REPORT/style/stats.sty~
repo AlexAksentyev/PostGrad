@@ -1,0 +1,24 @@
+
+
+\newcommand{\td}{\mathrm{d}}
+\newcommand{\pars}{\boldsymbol{\theta}}
+\DeclareDocumentCommand{\Fisher}{O{}D(){\pars_0}}{I_{#1}(#2)}
+\DeclareDocumentCommand{\Xpct}{mo}{\mathrm{E}\bkt*{#1\IfNoValueTF{#2}{}{|~ #2}}}
+\DeclareDocumentCommand{\XpctO}{m}{\Xpct{#1}[\pars_0]}
+\DeclareDocumentCommand{\mupp}{s}{\mu'_\phi\IfBooleanTF{#1}{}{(t_i)}}
+\DeclareDocumentCommand{\mudpp}{s}{\mu''_{\phi^2}\IfBooleanTF{#1}{}{(t_i)}}
+\newcommand{\vp}[2]{{#1}\cdot 10^{#2}}
+\newcommand{\cnt}{c}
+\newcommand{\meas}{\epsilon}
+\newcommand{\dt}{\Delta t}
+\newcommand{\dtm}{\dt_{\meas}}
+\newcommand{\dtc}{\dt_{\cnt}}
+\newcommand{\Ncm}{{n_{\sfrac{\cnt}{\meas}}}}
+\newcommand{\Nmnd}{{n_{\sfrac{\meas}{zc}}}}
+\newcommand{\Nnd}{{n_{zc}}}
+\newcommand{\Nm}{{n_{\meas}}}
+\newcommand{\Ncnt}{{n_{\cnt}}}
+\newcommand{\LTb}{\tau_b}
+\newcommand{\LTd}{\tau_d}
+\newcommand{\lamb}{\lambda_b}
+\newcommand{\lamd}{\lambda_d}
